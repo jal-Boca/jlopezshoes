@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="shortcut icon" href="../imagenes/favicon.png">
+    <link rel="stylesheet" href="../estilos/style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <div class="bodyContacto">
+        <header class="headerSale">
+            <div>
+                <center>
+                    <img src="../imagenes/logo.png" alt="logo de la empresa" id="headercontactoSalelogo" data-aos="flip-right">
+                </center>
+            </div>
+            <nav>
+                <ul class="principalHeader">
+                    <li>
+                        <a href="../index.html" class="colornavContactosale">Home</a>
+                    </li>
+                    <li>
+                        <a href="nosotros.html" class="colornavContactosale">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="catalogo.html" class="colornavContactosale">Catalogo</a>
+                    </li>
+                    <li>
+                        <a href="productos.html" class="colornavContactosale">Productos</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html" class="colornavContactosale">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="sale.html" class="colornavContactosale">Sale</a>
+                    </li> 
+                </ul>
+            </nav>
+        </header> 
+        <main class="mainContacto">
+            <div>
+                <h1 class="contactoH1">Contactanos</h1>
+            </div>
+            <section class="contactoFormulario">
+                <article>
+                    <form action="#">
+                        <input type="text" placeholder="Ingresa tu nombre"><br>
+                        <input type="number" placeholder="Ingresa tu edad"><br>
+                        <label for="email">Decinos tu email:
+                            <input type="email" placeholder="andres0165.com" name="email"><br>
+                        </label>
+                        <label for="nos importa tu opinion">Nos importa tu opinion:<br>
+                            <textarea placeholder="Nos importa tu opinion"></textarea>
+                        </label>
+                        <div><p>Elegi un material</p>
+                            <div>Cuero
+                                <input type="radio" name="material" value="cuero">
+                            </div>
+                            <div>Tela
+                                <input type="radio" name="material" value="tela">
+                            </div>
+                            <div>Sintetico
+                                <input type="radio" name="material" value="sintetico">
+                            </div>
+                        </div>
+                        <p>Que linea te gusta mas?</p>
+                        <select name="linea" id="linea">
+                            <option value="hombre">Hombre</option>
+                            <option value="mujer">Mujer</option>
+                            <option value="niño">Niño</option>
+                        </select>
+                        <div>Queres recibir nuestro catalogo?
+                            <input type="checkbox" name="acepta" value="1"></div> 
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Resetear">
+                    </form>
+                </article> 
+            </section>                
+        </main>
+        <footer class="footerSale">
+            <section class="navpieFooter">
+                <nav>
+                    <ul class="navpiedePagina">
+                        <li>
+                            <a href="../index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="catalogo.html">Catalogo</a>
+                        </li>
+                        <li>
+                            <a href="productos.html">Productos</a>
+                        </li>
+                        <li>
+                            <a href="contacto.html">Contacto</a>
+                        </li>
+                        <li>
+                            <a href="sale.html">Sale</a>
+                        </li> 
+                    </ul>
+                </nav>
+            </section>
+            <section class="footerTarjetasredes">    
+                <section class="materialesLineash3">
+                    <h3>MATERIALES</h3>
+                        <h4>Cuero</h4>
+                        <h4>Tela</h4>
+                        <h4>Sintetico</h4>
+                </section>
+                <section class="materialesLineash3">
+                    <h3>LINEAS</h3>
+                        <h4>Vestir</h4>
+                        <h4>Casual</h4>
+                        <h4>Informal</h4>
+                        <h4>Nautica</h4>
+                        <h4>Bota</h4>
+                </section>
+                <section class="tarjetasRedesh3">
+                    <h3>FORMAS DE PAGO</h3>
+                    <figure>
+                        <img src="../imagenes/iconotarjetas.png" alt="iconos de tarjetas de credito" class="iconoTamañotarjetas">
+                    </figure>
+                </section>
+                <section class="tarjetasRedesh3">
+                    <h3>NUESTRAS REDES</h3>
+                    <figure>
+                        <img src="../imagenes/iconoredes.png" alt="iconos de redes sociales" class="iconoTamañoredes">
+                    </figure>
+                </section class>
+                <section class="newsletterCorreo">
+                    <div>
+                        <img src="../imagenes/iconnewsletter.png" alt="casilla de correo">
+                    </div>
+                    <center>
+                        <div class="correoEnviar">
+                            <label for="email">Recibi nuestras <b>promociones esclusivas</b> en tu e-mail
+                                 <input type="email" placeholder="Tu correo electronico" name="email">
+                            </label>
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </center>
+                </section>
+            </section>
+            <section class="footerCopy">    
+                <div>
+                    <h5>Copyright 2016-2022 Jose Lopez Software | Todos los <b>derechos reservados</b></h5>
+                </div>
+            </section>
+        </footer> 
+    </div>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

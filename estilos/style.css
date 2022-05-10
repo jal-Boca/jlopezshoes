@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gujarati&family=Libre+Baskerville:wght@700&family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gujarati&family=Libre+Baskerville:wght@700&family=Libre+Bodoni:ital@1&family=Merriweather:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bodyIndex{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    /*grid-area: 
+    "headerIndex"
+    "mainIndex"
+    "footerIndex";*/
+    min-height: 100vh;
+    background-color: #ece8ea;
+    font-family: 'Merriweather', serif;
+}
+
+.headerIndex{
+    /*grid-area: headerIndex;*/
+    background-image: url(../imagenes/fondoHeader.png);
+    height: 30em;
+}
+
+.mainIndex{
+    /*grid-area: mainIndex;*/
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    height: 160em;
+}
+
+/*.footerIndex{
+    grid-area: footerIndex;
+    margin-bottom: 0;
+}*/
+
+.principalHeader{
+    font-family: 'Merriweather', serif;
+    font-size: 2.2em;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul li{
+    display: flex;
+    text-decoration: none;
+}
+
+a{
+    color: #d22333;
+    text-decoration: none;
+    margin-top: 0.1em;
+}
+
+.ulliSale{
+    background-color: #d22333;
+    color: #ffffff;
+    border-radius: 10%;
+    padding: 0 0.3em;
+}
+
+.fondoLogoh1{
+    display: flex;
+    justify-content: center;
+    background-color: #d22333;
+}
+
+.logoh1{
+    display: flex;
+    align-items: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.8em;
+    color: #ffffff;
+    margin-left: 1em;
+}
+
+.principalLogoimg{
+    height: 4em;
+    width: 6em;
+}
+
+.articleIndex{
+    font-family: 'Merriweather', serif;
+    font-size: 1.2em;
+    color: #d22333;
+    margin: 2em 10em 4em;
+    border-bottom: 0.1em solid #d22333;
+}
+
+.articleIndexh2{
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.figureImgdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0.1em solid #d22333;
+    margin: 2em 4em;
+    background-color: #e4eaef;
+}
+
+.figureImgdivinvertido{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border: 0.1em solid #d22333;
+    margin: 2em 4em;
+    background-color: #dddddd;
+}
+
+.centerh2Pdiv{
+    margin: 2em;
+    font-family: 'Merriweather', serif;
+    font-size: 1.2em;
+    color: #d22333;
+}
+
+.encabezadoLineasindexh2{
+    font-size: 1.6em;
+    padding-bottom: 1em;
+}
+
+.principalImagenes{
+    height: 18em;
+    width: 20em;
+    margin: 0.8em;
+}
+
+#principalHeaderlogo{
+    height: 2em;
+    width: 3em;
+}
+
+/* nosotros */
+
+.bodyNosotros{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+.headerNosotros{
+    background-image: url(../imagenes/fondonosotros.png);
+    height: 30em;
+}
+
+.mainNosotros{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    background-image: linear-gradient(to top, #ece8ea, #d22333);
+}
+
+.nosotrosHistoriah1{
+    font-family: 'Libre Bodoni', serif;
+    font-size: 3.4em;
+    color: #ece8ea;
+    margin-top: 1em;
+    padding-bottom: 2em;
+}
+
+.fotoParrafo{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border: 0.1em solid #ece8ea;
+    padding: 1.2em;
+    margin: 0 3em 10em 3em;
+}
+
+.videoParrafo{
+    border: 0.2em dotted #d22333;
+    margin: 3em 16em 8em 16em;
+}
+
+.nosotrosImagenfigure:hover{
+    transform: scale(1.4);
+    transition: all 2s;
+}
+
+.nosotrosFoto{
+    height: 20em;
+    width: 35em;
+}
+
+.nosotrosVideo{
+    margin: 2em;
+}
+
+.nosotrosparrafoComienzo{
+    font-family: 'Libre Bodoni', serif;
+    font-size: 1.3em;
+    color: #ece8ea;
+    margin-left: 0.5em;  
+}
+
+.nosotrosParrafopie{
+    font-family: 'Libre Bodoni', serif;
+    font-size: 1.3em;
+    color: #ece8ea;
+    padding: 1.2em;
+}
+
+.nosotrosTitulofigcaption{
+    font-family: 'Libre Bodoni', serif;
+    font-size: 1.1em;
+    color: #d22333;
+}
+
+.nosotrosTitulofigcaptionuno{
+    font-family: 'Libre Bodoni', serif;
+    font-size: 1.1em;
+    color: #ece8ea;
+}
+
+.nosotrosh2Foto{
+    font-family: 'Libre Bodoni', serif;
+    font-size: 1.8em;
+    color: #ece8ea;
+    margin-bottom: 1em;
+}
+
+.nosotrosh2Video{
+    font-family: 'Libre Bodoni', serif;
+    font-size: 1.8em;
+    color: #ece8ea;
+    padding: 1em ; 
+}
+
+.nosotrosparrafoVideo{ 
+    font-family: 'Libre Bodoni', serif;
+    color: #ece8ea;
+}
+
+/* catalogo */
+
+.bodyCatalogo{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    font-family: 'Merriweather', serif;
+    background-color: #ece8ea;
+}
+
+.headerCatalogo{
+    background-image: url(../imagenes/fondocatalogo.png);
+    height: 30em;
+}
+
+.principalCatalogoh1{
+    font-size: 3.5em;
+    color: #7D3C98;
+    padding: 0.2em 0 0.4em 0;
+}
+
+.catalogoPublicidad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D7BDE2;
+    margin-left: 16em;
+    margin-right: 16em;
+}
+
+.catalogoPublicidadh2{
+    font-size: 2em;
+    color: #7D3C98;
+    padding: 0.4em;
+}
+
+.catalogoPublicidadp{
+    font-size: 1em;
+    padding: 0.8em 1.4em;
+    color: #7D3C98;
+}
+
+.catalogoLonuevoh2{
+    font-size: 1.8em;
+    padding: 0.8em;
+    color: #ece8ea;
+    background-color: brown;
+    margin-top: 1em;
+}
+
+.imagenesCatalogo{
+    border: 0.13em dashed #7D3C98;
+    height: 25em;
+    width: 35em;
+    margin-top: 3em;
+    padding: 0.4em;
+}
+
+.catalogoArth2{
+    font-size: 1.8em;
+    color: brown;
+    padding: 0.1em;
+}
+
+.catalogoDescripcionfoto{
+    color: #7D3C98;
+    padding: 0.3em;
+}
+
+.catalogoFigurefondo{
+    background-color: #EDD2F9;
+}
+
+/* productos */
+
+.bodyProductos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    background-color: #ece8ea;
+}
+
+.mainProductos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+.headerProductos{
+    background-image: url(../imagenes/fondoprodustos.png);
+    height: 30em;
+}
+
+.principalProductosh1{
+    background-color: brown;
+    color: #ffffff;
+    font-family: 'Libre Bodoni', serif;
+    font-size: 3.5em;
+    padding: 0.2em;
+}
+
+.productosGaleriasection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    background-color: #ece8ea;
+    gap: 1.5em;
+}
+
+.productosFotos{
+    background-color: brown;
+    font-family: 'Libre Bodoni', serif;
+    font-size: 1.2em;
+    color: #ffffff;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 0.1em;
+}
+
+.productosGaleriafotos{
+    height: 18em;
+    width: 18em;
+}
+
+.productosColortalle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #ece8ea;
+    color: brown;
+    font-family: 'Libre Bodoni', serif;
+    font-size: 0.8em;
+    padding: 0.2em;
+}
+
+.productosColortalleseleccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;    
+}
+
+/* contacto */
+
+.bodyContacto{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+}
+
+.mainContacto{
+    background-color: #ece8ea;
+}
+
+.contactoH1{
+    text-align: center;
+    background-color: #ece8ea;
+    color: brown;
+    font-size: 4em;
+    padding: 0.2em;
+}
+
+.contactoFormulario{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 1.2em;
+}
+
+.colornavContactosale{
+    font-size: 0.7em;
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+#headercontactoSalelogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 4.5em;
+    width: 4.5em;
+    margin-top: 0.8em;
+}
+
+/* sale */
+
+.bodySale{
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+.headerSale{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    background-color: brown;
+    height: 8.5em;
+}
+
+.mainSale{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+.footerSale{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+.divSale{
+    background-image: linear-gradient(45deg, #ece8ea 50%, #dddddd 50%);
+}
+
+.saleofertaComprar{
+    text-align: center;
+    background-color: #cacaca;
+    margin: 1em 29em;
+    padding: 0.5em 0;
+    border-radius: 5%;
+}
+
+.saleH1{
+    text-align: center;
+    background-color: #dddddd;
+    color: brown;
+    font-size: 4em;
+    padding: 0.2em;
+}
+
+.saleOfertah2{
+    color: brown;
+    font-size: 2em;
+}
+
+.saleTextofoto{
+    color: brown;
+    font-size: 1.2em;
+}
+
+.submitproductossaleComprar{
+    padding: 0.3em;
+    font-family: 'Merriweather', serif;
+    background-color: brown;
+    border: brown;
+    border-radius: 10%;
+    color: #ffffff;
+    font-size: 1.2em;
+
+}    
+    
+.saleGaleria{
+    height: 25em;
+    width: 25em;
+}
+
+/* pie de footer */
+
+.navpieFooter{
+    height: 2em;
+    margin-bottom: 0.2em;
+}
+
+div footer nav ul li a{
+    background-color: brown;
+    color: #ffffff;
+    border-radius: 10%;
+    padding: 0 0.6em;
+} 
+
+.navpiedePagina{
+    background-color: #ece8ea;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Merriweather', serif;
+    font-size: 1.4em;
+    padding-bottom: 0.2em;
+}
+
+.footerTarjetasredes{
+    display: flex;
+    flex-direction: row;
+    font-family:  'Merriweather', serif;
+    font-size: 0.8em;
+    background-color: brown;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: auto;
+}
+
+.materialesLineash3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:  0.4em 3em;
+    color: #ffffff;
+}
+
+.tarjetasRedesh3{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;       
+    margin: 0.4em 3em;
+    color: #ffffff;
+}
+
+.iconoTamañotarjetas{
+    height: 20em;
+    width: 22em;
+    margin: 0 3em;
+}
+
+.iconoTamañoredes{
+    height: 10em;
+    width: 11em;
+    margin: 2em 1.5em;
+}
+
+.correoEnviar{
+    color: #ffffff;}
+
+.newsletterCorreo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em 2em;
+    font-size: 1.2em;
+}
+
+.footerCopy{
+    background-color: #ece8ea;
+    color: brown;
+    font-family:  'Merriweather', serif;
+    font-size: 1em;
+    padding: 0.2em ;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
