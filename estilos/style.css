@@ -11,33 +11,33 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
-    /*grid-area: 
+    grid-template-areas:          
     "headerIndex"
     "mainIndex"
-    "footerIndex";*/
+    "footerIndex";
     min-height: 100vh;
     background-color: #ece8ea;
     font-family: 'Merriweather', serif;
 }
 
 .headerIndex{
-    /*grid-area: headerIndex;*/
+    grid-area: headerIndex;
     background-image: url(../imagenes/fondoHeader.png);
     height: 30em;
 }
 
 .mainIndex{
-    /*grid-area: mainIndex;*/
+    grid-area: mainIndex;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    height: 160em;
+    margin-bottom: 2em;
 }
 
-/*.footerIndex{
+.footerIndex{
     grid-area: footerIndex;
     margin-bottom: 0;
-}*/
+}
 
 .principalHeader{
     font-family: 'Merriweather', serif;
@@ -103,20 +103,21 @@ a{
 
 .figureImgdiv{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    border: 0.1em solid #d22333;
-    margin: 2em 4em;
-    background-color: #e4eaef;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin: auto;
+    background-color: #dddddd;
+    padding: 2em;
 }
 
 .figureImgdivinvertido{
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: row-reverse;
-    align-items: center;
-    border: 0.1em solid #d22333;
-    margin: 2em 4em;
+    width: 90%;
+    margin: auto;
     background-color: #dddddd;
+    padding: 2em;
 }
 
 .centerh2Pdiv{
@@ -134,7 +135,6 @@ a{
 .principalImagenes{
     height: 18em;
     width: 20em;
-    margin: 0.8em;
 }
 
 #principalHeaderlogo{
@@ -550,6 +550,12 @@ div footer nav ul li a{
     color: #ffffff;
 }
 
+.fa-brands{
+    display: grid;
+    margin-top: 1em;
+    padding: 0.5em;
+}
+
 .iconoTamañotarjetas{
     height: 20em;
     width: 22em;
@@ -570,7 +576,7 @@ div footer nav ul li a{
     flex-direction: column;
     align-items: center;
     margin: 2em 2em;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .footerCopy{
@@ -582,7 +588,119 @@ div footer nav ul li a{
     margin-bottom: 0;
 }
 
+@media (max-width:800px){
+    
+    .bodyIndex{
+        gap: 1em;
+    }
 
+    .principalHeader{
+        flex-direction: column;
+        background-color: #ece8ea;
+    }
+
+    .ulliSale{
+        background-color: #ece8ea;
+        color: #d22333;
+    }
+
+    .headerIndex{
+        height:17.9em;
+    }
+
+    .mainIndex{
+        background-color: #ece8ea;
+    }
+
+    .articleIndex{
+        border-bottom: 0;
+    }
+
+    .figureImgdiv{
+        flex-wrap: wrap;
+        border: 0;
+        margin: auto;
+        padding: 0;
+    }
+    
+    .figureImgdivinvertido{
+        flex-wrap: wrap;
+        border: 0;
+        margin: auto;
+        padding: 0;
+    }
+
+    #indexImg{
+        margin-left: 12.5em;
+        margin-top: 6em;
+    }
+
+    #indeximgInvertido{
+        margin-right: 12.5em;
+        margin-top: 6em;
+    }
+
+    .footerTarjetasredes{
+        flex-direction: column;
+    }
+
+    .footerDerechos{
+        flex-direction: column;
+        background-color: #dddddd;
+    }
+}
+
+@media (max-width:400px){
+    
+    .bodyIndex{
+        gap: 0.1em;
+    }
+
+    .principalHeader{
+        flex-direction: column;
+        background-color: #dddddd;
+    }
+
+    .ulliSale{
+        background-color: #dddddd;
+        color: #d22333;
+    }
+
+    .mainIndex{
+        background-color: #dddddd;
+        margin-bottom: 0;
+    }
+
+    .articleIndex{
+        border: 0;
+    }
+
+    .figureImgdiv{
+        border: 0;}
+    
+    .figureImgdivinvertido{
+        border: 0;
+    }
+
+    #indexImg{
+        margin-left: 6.54em;
+        margin-top: 6em;
+    }
+
+    #indeximgInvertido{
+        margin-right: 6.54em;
+        margin-top: 6em;
+    }
+    
+    .footerTarjetasredes{
+        flex-direction: column;
+    }
+
+    .footerDerechos{
+        flex-direction: column;
+        background-color: #dddddd;
+    }
+}
 
 
 
