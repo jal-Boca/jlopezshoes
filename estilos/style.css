@@ -78,7 +78,7 @@ a{
     font-family: 'Libre Baskerville', serif;
     font-size: 1.8em;
     color: #ffffff;
-    margin-left: 1em;
+    margin-left: 0.6em;
 }
 
 .principalLogoimg{
@@ -138,8 +138,9 @@ a{
 }
 
 #principalHeaderlogo{
-    height: 2em;
-    width: 3em;
+    height: 1.8em;
+    width: 2.8em;
+    margin-top: 0.2em;
 }
 
 /* nosotros */
@@ -159,29 +160,50 @@ a{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
-    background-image: linear-gradient(to top, #ece8ea, #d22333);
+    background-color: #ece8ea;
 }
 
 .nosotrosHistoriah1{
+    text-align: center;
     font-family: 'Libre Bodoni', serif;
-    font-size: 3.4em;
+    font-size: 2.6em;
     color: #ece8ea;
-    margin-top: 1em;
-    padding-bottom: 2em;
+    background-color: brown;
+    padding: 0.5em;
+    margin-bottom: 0;
+}
+
+.col{
+    background-color: rgb(180, 140, 140);
+    padding: 0.6em;
+}
+
+.nCarouselimg{
+    border: 0.18em solid #ece8ea;
+    height: 26em;
+    width: 30em;
+}
+
+.nosotrosHistoriah2{
+    font-family: 'Libre Bodoni', serif;
+    font-size: 2.5em;
+    color: #d22333;
+    margin-top: 0.8em;
+    padding-bottom: 1em;
 }
 
 .fotoParrafo{
     display: flex;
     justify-items: center;
     align-items: center;
-    border: 0.1em solid #ece8ea;
+    border: 0.1em solid #d22333;
     padding: 1.2em;
-    margin: 0 3em 10em 3em;
+    margin: 0 3em 5em 3em;
 }
 
 .videoParrafo{
+    margin: 3em 17em 8em 17em;
     border: 0.2em dotted #d22333;
-    margin: 3em 16em 8em 16em;
 }
 
 .nosotrosImagenfigure:hover{
@@ -201,14 +223,14 @@ a{
 .nosotrosparrafoComienzo{
     font-family: 'Libre Bodoni', serif;
     font-size: 1.3em;
-    color: #ece8ea;
+    color: #d22333;
     margin-left: 0.5em;  
 }
 
 .nosotrosParrafopie{
     font-family: 'Libre Bodoni', serif;
     font-size: 1.3em;
-    color: #ece8ea;
+    color: #d22333;
     padding: 1.2em;
 }
 
@@ -221,26 +243,26 @@ a{
 .nosotrosTitulofigcaptionuno{
     font-family: 'Libre Bodoni', serif;
     font-size: 1.1em;
-    color: #ece8ea;
+    color: #d22333;
 }
 
 .nosotrosh2Foto{
     font-family: 'Libre Bodoni', serif;
     font-size: 1.8em;
-    color: #ece8ea;
+    color: #d22333;
     margin-bottom: 1em;
 }
 
 .nosotrosh2Video{
     font-family: 'Libre Bodoni', serif;
     font-size: 1.8em;
-    color: #ece8ea;
+    color: #d22333;
     padding: 1em ; 
 }
 
 .nosotrosparrafoVideo{ 
     font-family: 'Libre Bodoni', serif;
-    color: #ece8ea;
+    color: #d22333;
 }
 
 /* catalogo */
@@ -500,34 +522,11 @@ a{
     width: 25em;
 }
 
-/* pie de footer */
-
-.navpieFooter{
-    height: 2em;
-    margin-bottom: 0.2em;
-}
-
-div footer nav ul li a{
-    background-color: brown;
-    color: #ffffff;
-    border-radius: 10%;
-    padding: 0 0.6em;
-} 
-
-.navpiedePagina{
-    background-color: #ece8ea;
-    display: flex;
-    justify-content: space-evenly;
-    font-family: 'Merriweather', serif;
-    font-size: 1.4em;
-    padding-bottom: 0.2em;
-}
-
 .footerTarjetasredes{
     display: flex;
     flex-direction: row;
     font-family:  'Merriweather', serif;
-    font-size: 0.8em;
+    font-size: 0.6em;
     background-color: brown;
     color: #ffffff;
     margin-bottom: 0;
@@ -538,7 +537,7 @@ div footer nav ul li a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin:  0.4em 3em;
+    margin:  0.1em 3em;
     color: #ffffff;
 }
 
@@ -546,8 +545,20 @@ div footer nav ul li a{
     display: flex;
     flex-direction: column ;
     align-items: center;       
-    margin: 0.4em 3em;
+    margin: 0.1em 3em;
     color: #ffffff;
+}
+
+h3{
+    font-size: 1.8em;
+}
+
+h4{
+    font-size: 1.4em;
+}
+
+h5{
+    font-size: 1.2em;
 }
 
 .fa-brands{
@@ -556,35 +567,33 @@ div footer nav ul li a{
     padding: 0.5em;
 }
 
-.iconoTamañotarjetas{
-    height: 20em;
-    width: 22em;
-    margin: 0 3em;
-}
-
-.iconoTamañoredes{
-    height: 10em;
-    width: 11em;
-    margin: 2em 1.5em;
-}
-
 .correoEnviar{
+    font-size: 1.4em;
     color: #ffffff;}
 
 .newsletterCorreo{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2em 2em;
+    margin: 2em 1.2em;
     font-size: 1em;
+}
+
+.iconUbicacion{
+    height: 9em;
+    width: 9em;
+    padding: 2em 2em;
+    margin: 0 4em 0 4em;
+
 }
 
 .footerCopy{
     background-color: #ece8ea;
     color: brown;
     font-family:  'Merriweather', serif;
-    font-size: 1em;
-    padding: 0.2em ;
+    font-size: 0.6em;
+    height: 1.5em;
+    padding: 0.1em;
     margin-bottom: 0;
 }
 
@@ -605,7 +614,7 @@ div footer nav ul li a{
     }
 
     .headerIndex{
-        height:17.9em;
+        height:21em;
     }
 
     .mainIndex{
@@ -683,12 +692,12 @@ div footer nav ul li a{
     }
 
     #indexImg{
-        margin-left: 6.54em;
+        margin-left: 4.6em;
         margin-top: 6em;
     }
 
     #indeximgInvertido{
-        margin-right: 6.54em;
+        margin-right: 6.1em;
         margin-top: 6em;
     }
     
@@ -702,12 +711,49 @@ div footer nav ul li a{
     }
 }
 
+@media (max-width:800px){
+
+    .headerNosotros{
+        height: 25.4em;
+    }
+
+    .nosotrosHistoriah1{
+        font-size: 1.8em;
+    }
+
+    .nCarouselimg{
+        height: 18em;
+        width: 22em;
+    }
+
+    .nosotrosHistoriah2{
+        font-size: 2em;
+        color: #ece8ea;
+        margin-top: 0;
+    }
+
+    .fotoParrafo{
+        flex-direction: column;
+        border: none;
+        margin: 0;
+        padding-top: 0;
+    }
+
+    .videoParrafo{
+        background: #dddddd;
+        border: none;
+        margin: 0;
+    }
+
+}
 
 
-
-
-
-
+@media (max-width:400px){
+    
+    .nosotrosHistoriah1{
+        font-size: 1.4em;
+    }
+}
 
 
 
