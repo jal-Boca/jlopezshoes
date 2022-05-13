@@ -48,39 +48,27 @@
                 <h1 class="contactoH1">Contactanos</h1>
             </div>
             <section class="contactoFormulario">
-                <article>
-                    <form action="#">
-                        <input type="text" placeholder="Ingresa tu nombre"><br>
-                        <input type="number" placeholder="Ingresa tu edad"><br>
-                        <label for="email">Decinos tu email:
-                            <input type="email" placeholder="andres0165.com" name="email"><br>
-                        </label>
-                        <label for="nos importa tu opinion">Nos importa tu opinion:<br>
-                            <textarea placeholder="Nos importa tu opinion"></textarea>
-                        </label>
-                        <div><p>Elegi un material</p>
-                            <div>Cuero
-                                <input type="radio" name="material" value="cuero">
-                            </div>
-                            <div>Tela
-                                <input type="radio" name="material" value="tela">
-                            </div>
-                            <div>Sintetico
-                                <input type="radio" name="material" value="sintetico">
-                            </div>
-                        </div>
-                        <p>Que linea te gusta mas?</p>
-                        <select name="linea" id="linea">
-                            <option value="hombre">Hombre</option>
-                            <option value="mujer">Mujer</option>
-                            <option value="niño">Niño</option>
-                        </select>
-                        <div>Queres recibir nuestro catalogo?
-                            <input type="checkbox" name="acepta" value="1"></div> 
-                            <input type="submit" value="Enviar">
-                            <input type="reset" value="Resetear">
-                    </form>
-                </article> 
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Telefono</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Tel: 1155555555 ">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control"
+                    id="exampleFormControlInput1" placeholder="joselopez@gmail.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu consulta</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1"
+                    rows="3"></textarea>
+                </div>
+                <div class="botonEnviarcontacto">
+                    <input class="btn btn-success" class="btn btn-primary" type="submit" value="Enviar">
+                </div>
             </section>                
         </main>
         <footer class="footerSale">

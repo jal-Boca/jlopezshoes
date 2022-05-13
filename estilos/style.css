@@ -406,7 +406,21 @@ a{
     justify-content: end;    
 }
 
-/* contacto */
+/* contacto-sale */
+
+.headerSale{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    background-color: brown;
+    height: 7.1em;
+}
+
+.mainSale{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
 
 .bodyContacto{
     display: grid;
@@ -428,62 +442,45 @@ a{
 
 .contactoFormulario{
     text-align: center;
+    color: #d22333;
     font-family: 'Merriweather', serif;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    margin: 3em 5.5em 6em 5.5em;
 }
 
 .colornavContactosale{
     font-size: 0.7em;
     font-family: 'Merriweather', serif;
-    color: #ffffff;
-    margin-bottom: 0;
-}
+    color: #ffffff;}
 
 #headercontactoSalelogo{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 4.5em;
-    width: 4.5em;
-    margin-top: 0.8em;
+    height: 4.3em;
+    width: 4.3em;
+    margin-top: 0.4em;
 }
 
-/* sale */
+.botonEnviarcontacto{
+    margin-top: 2.5em;
+}
 
 .bodySale{
     display: grid; 
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
-}
-
-.headerSale{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    background-color: brown;
-    height: 8.5em;
-}
-
-.mainSale{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-}
-
-.footerSale{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    background-color: #ece8ea;
 }
 
 .divSale{
-    background-image: linear-gradient(45deg, #ece8ea 50%, #dddddd 50%);
-}
+    background-color: #ece8ea;
+    }
 
 .saleofertaComprar{
     text-align: center;
     background-color: #cacaca;
-    margin: 1em 29em;
+    margin: 3em 29em;
     padding: 0.5em 0;
     border-radius: 5%;
 }
@@ -493,7 +490,6 @@ a{
     background-color: #dddddd;
     color: brown;
     font-size: 4em;
-    padding: 0.2em;
 }
 
 .saleOfertah2{
@@ -506,21 +502,17 @@ a{
     font-size: 1.2em;
 }
 
-.submitproductossaleComprar{
-    padding: 0.3em;
-    font-family: 'Merriweather', serif;
-    background-color: brown;
-    border: brown;
-    border-radius: 10%;
-    color: #ffffff;
-    font-size: 1.2em;
-
-}    
-    
 .saleGaleria{
     height: 25em;
     width: 25em;
 }
+
+.botonVolver{
+    margin: 1em;
+    
+}
+
+/* footer */
 
 .footerTarjetasredes{
     display: flex;
@@ -745,6 +737,19 @@ h5{
         margin: 0;
     }
 
+    h3{
+        font-size: 1.8em;
+        color: yellow;
+    }
+
+    h4{
+        font-size: 1.5em;
+    }
+
+    h5{
+        font-size: 1.2em;
+    }
+
 }
 
 
@@ -753,7 +758,85 @@ h5{
     .nosotrosHistoriah1{
         font-size: 1.4em;
     }
+
+    h3{
+        font-size: 1.4em;
+        color: yellow;
+    }
+
+    h4{
+        font-size: 1.3em;
+    }
+
+    h5{
+        font-size: 1em;
+    }
 }
+
+@media (max-width:800px){
+    
+    .bodyContacto{
+        flex-direction: column;
+    }
+
+    .contactoH1{
+        font-size: 3.2em;
+        padding: 0.1em;
+    }
+
+    .contactoFormulario{
+        font-size: 1.2em;
+        margin: 1.5em 2em 3em 2em;
+    }
+
+}
+
+@media (max-width:400px){
+
+    .bodyContacto{
+        flex-direction: column;
+    }    
+        
+    .contactoH1{
+        font-size: 2.4em;
+        padding: 0.1em;
+    }
+
+    .contactoFormulario{
+        font-size: 1em;
+        margin: 1.5em 2em 3em 2em;
+    }
+    
+}
+
+@media (max-width:800px){
+
+    .bodySale{
+        flex-direction: column;
+
+    }
+
+    .headerSale{
+        flex-direction: column;
+        height: 20em;
+    }
+
+    #headercontactoSalelog{
+        height: 3em;
+        width: 3em;
+        margin-top: 0.4em;
+    }
+
+    .saleofertaComprar{
+        text-align: center;
+        background-color: none;
+        /*margin: 3em 29em;*/
+        padding: 0.5em 0;
+        /*border-radius: 5%;*/
+    }
+
+}
+
 
 
 
