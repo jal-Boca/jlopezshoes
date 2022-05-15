@@ -42,7 +42,7 @@
 .principalHeader{
     font-family: 'Merriweather', serif;
     font-size: 2.2em;
-    display: flex;
+     display: flex;
     text-decoration: none;
     justify-content: space-evenly;
     align-items: center;
@@ -280,6 +280,10 @@ a{
     height: 30em;
 }
 
+.mainCatalogo{
+    background-color: #ece8ea;
+}
+
 .principalCatalogoh1{
     font-size: 3.5em;
     color: #7D3C98;
@@ -310,7 +314,7 @@ a{
 .catalogoLonuevoh2{
     font-size: 1.8em;
     padding: 0.8em;
-    color: #ece8ea;
+    color: #ffffff;
     background-color: brown;
     margin-top: 1em;
 }
@@ -351,6 +355,7 @@ a{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
+    background-color: #ece8ea
 }
 
 .headerProductos{
@@ -371,7 +376,7 @@ a{
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     background-color: #ece8ea;
-    gap: 1.5em;
+    gap: 1em;
 }
 
 .productosFotos{
@@ -408,36 +413,24 @@ a{
 
 /* contacto-sale */
 
-.headerSale{
+.bodyContactosale{
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    background-color: #ece8ea;
+}
+
+.headerContactosale{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     background-color: brown;
-    height: 7.1em;
 }
 
-.mainSale{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-}
-
-.bodyContacto{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
-}
-
-.mainContacto{
-    background-color: #ece8ea;
-}
-
-.contactoH1{
-    text-align: center;
-    background-color: #ece8ea;
-    color: brown;
-    font-size: 4em;
-    padding: 0.2em;
+#headercontactoSalelogo{
+    height: 4.3em;
+    width: 4.3em;
+    margin-top: 0.4em;
 }
 
 .contactoFormulario{
@@ -451,45 +444,30 @@ a{
 .colornavContactosale{
     font-size: 0.7em;
     font-family: 'Merriweather', serif;
-    color: #ffffff;}
-
-#headercontactoSalelogo{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 4.3em;
-    width: 4.3em;
-    margin-top: 0.4em;
+    color: #ffffff;
 }
 
 .botonEnviarcontacto{
     margin-top: 2.5em;
 }
 
-.bodySale{
-    display: grid; 
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
+.divSale{
     background-color: #ece8ea;
 }
 
-.divSale{
-    background-color: #ece8ea;
-    }
-
 .saleofertaComprar{
-    text-align: center;
-    background-color: #cacaca;
+    background-color: #dddddd;
     margin: 3em 29em;
     padding: 0.5em 0;
     border-radius: 5%;
 }
 
-.saleH1{
+.contactoSaleh1{
     text-align: center;
     background-color: #dddddd;
     color: brown;
     font-size: 4em;
+    padding: 0.2em;
 }
 
 .saleOfertah2{
@@ -553,15 +531,22 @@ h5{
     font-size: 1.2em;
 }
 
-.fa-brands{
-    display: grid;
-    margin-top: 1em;
-    padding: 0.5em;
+.faceInstavisamaster a i{
+    color: #ffffff;
+    font-size: 3em;
+    flex-direction: column;
+    margin-top: 0.5em;
+    padding: 0.1em;
+}
+
+.faceInstavisamaster a i:hover{
+    color: yellow;
 }
 
 .correoEnviar{
     font-size: 1.4em;
-    color: #ffffff;}
+    color: #ffffff;
+}
 
 .newsletterCorreo{
     display: flex;
@@ -576,7 +561,6 @@ h5{
     width: 9em;
     padding: 2em 2em;
     margin: 0 4em 0 4em;
-
 }
 
 .footerCopy{
@@ -589,7 +573,7 @@ h5{
     margin-bottom: 0;
 }
 
-@media (max-width:800px){
+@media (max-width:800px){  /*index*/
     
     .bodyIndex{
         gap: 1em;
@@ -649,6 +633,7 @@ h5{
         flex-direction: column;
         background-color: #dddddd;
     }
+
 }
 
 @media (max-width:400px){
@@ -677,7 +662,8 @@ h5{
     }
 
     .figureImgdiv{
-        border: 0;}
+        border: 0;
+    }
     
     .figureImgdivinvertido{
         border: 0;
@@ -703,7 +689,7 @@ h5{
     }
 }
 
-@media (max-width:800px){
+@media (max-width:800px){  /*nosotros*/
 
     .headerNosotros{
         height: 25.4em;
@@ -754,6 +740,11 @@ h5{
 
 
 @media (max-width:400px){
+
+    .mainNosotros{
+        
+        background-color: #dddddd;
+    }
     
     .nosotrosHistoriah1{
         font-size: 1.4em;
@@ -773,15 +764,159 @@ h5{
     }
 }
 
-@media (max-width:800px){
-    
-    .bodyContacto{
-        flex-direction: column;
+@media (max-width:800px){  /*catalogo*/
+
+    .headerCatalogo{
+        height: 25em;
     }
 
-    .contactoH1{
-        font-size: 3.2em;
+    .principalCatalogoh1{
+        font-size: 3.5em;
+        color: #ffffff;
+        background-color: brown;
         padding: 0.1em;
+    }
+
+    .catalogoPublicidad{
+        margin: 1em;
+    }
+    
+    .catalogoPublicidadh2{
+        font-size: 1.4em;
+        padding: 0.4em;
+        margin-top: 0.2em;
+    }
+
+    .catalogoPublicidadp{
+        font-size: 0.8em;
+        padding: 0.6em;
+    }
+    
+    .catalogoLonuevoh2{
+        font-size: 1.4em;
+        padding: 0.2em;
+        margin-top: 0;
+    }
+
+    .imagenesCatalogo{
+        border: 0.03;
+        height: 18em;
+        width: 24em;
+        margin-top: 1em;
+        padding: 0.2em;
+    }
+    
+    .catalogoArth2{
+        font-size: 1.4em;
+    }
+    
+    .catalogoDescripcionfoto{
+        font-size: 0.9em;
+        color: #7D3C98;
+        padding: 0.1em;
+    }
+    
+}
+
+@media (max-width:400px){
+
+    .mainCatalogo{
+        background-color: #dddddd;
+    }
+
+    .catalogoPublicidadp{
+        font-size: 0.8em;
+        padding: 0;
+        margin: 0;
+    }
+
+    .imagenesCatalogo{
+        border: 0.03;
+        height: 18em;
+        width: 24em;
+        margin-top: 1em;
+        padding: 0.2em;
+    }
+
+    .catalogoPublicidad{
+        margin: 0.8em;
+        background-color: #D7BDE2;
+    }
+
+}
+
+@media (max-width:800px){/*productos*/
+
+    .headerProductos{
+        height: 25em;
+    }
+
+    .principalProductosh1{
+        font-size: 2.8em;
+        padding: 0;
+    }
+
+    .productosGaleriasection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:400px){
+
+    .principalProductosh1{
+        font-size: 2em;
+        padding: 0;
+    }
+
+    .productosFotos{
+        font-size: 1em;
+        color: #ffffff;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding: 0.1em;
+    }
+
+}
+
+@media (max-width:800px){/*contactosale*/
+    
+    .headerContactosale{
+        background-color: #ece8ea;
+        flex-direction: column;
+        height: 26em;
+    }
+
+    .contactoSaleh1{
+        background-color: brown;
+        color: #ffffff;
+        font-size: 3.8em;
+        padding: 0;
+    }
+
+    .colornavContactosale{
+        font-size: 1em;
+        color: brown;
+    }
+
+    .mainContactosale{
+        flex-direction: column;
+        background-color: #ece8ea;
+    }
+
+    .divSale{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #headercontactoSalelogo{
+        height: 4.3em;
+        width: 4.3em;
+        margin-top: 0.6em;
+        margin-left: 2em;
     }
 
     .contactoFormulario{
@@ -789,17 +924,50 @@ h5{
         margin: 1.5em 2em 3em 2em;
     }
 
+    .saleofertaComprar{
+        background-color: #B3B6B7;
+        margin: 3em 29em;
+        padding: 0.5em 0.5em;
+        border-radius: 5%;
+    }
+
+    .saleOfertah2{
+        color: brown;
+        font-size: 2em;
+    }
+    
+    .saleTextofoto{
+        color: brown;
+        font-size: 1.6em;
+    }
+
+    .saleGaleria{
+        height: 24em;
+        width: 24em;
+    }
+
 }
 
 @media (max-width:400px){
 
-    .bodyContacto{
-        flex-direction: column;
-    }    
-        
-    .contactoH1{
-        font-size: 2.4em;
-        padding: 0.1em;
+    .headerContactosale{
+        background-color: #dddddd;
+    }
+
+    .mainContactosale{
+        background-color: #dddddd;
+    }
+
+    .divSale{
+        background-color: #dddddd;
+    }
+
+    .contactoSaleh1{
+        text-align: center;
+        background-color: brown;
+        color: #ffffff;
+        font-size: 3.2em;
+        padding: 0;
     }
 
     .contactoFormulario{
@@ -807,34 +975,26 @@ h5{
         margin: 1.5em 2em 3em 2em;
     }
     
-}
-
-@media (max-width:800px){
-
-    .bodySale{
-        flex-direction: column;
-
-    }
-
-    .headerSale{
-        flex-direction: column;
-        height: 20em;
-    }
-
     #headercontactoSalelog{
         height: 3em;
         width: 3em;
         margin-top: 0.4em;
     }
 
-    .saleofertaComprar{
-        text-align: center;
-        background-color: none;
-        /*margin: 3em 29em;*/
-        padding: 0.5em 0;
-        /*border-radius: 5%;*/
+    .saleOfertah2{
+        color: brown;
+        font-size: 2.4em;
+    }
+    
+    .saleTextofoto{
+        color: brown;
+        font-size: 1.8em;
     }
 
+    .saleGaleria{
+        height: 23em;
+        width: 23em;
+    }
 }
 
 
