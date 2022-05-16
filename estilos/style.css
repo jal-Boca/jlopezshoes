@@ -143,6 +143,17 @@ a{
     margin-top: 0.2em;
 }
 
+.cardIndex{
+    /*margin-top: 2.5em;
+    margin-bottom: 2.5em;*/
+    margin: 2.5em 26em;
+    border-radius: 1%;
+    color: brown;
+    font-size: 1.2em;
+    background-color: brown;
+    padding: 0.2em;
+}
+
 /* nosotros */
 
 .bodyNosotros{
