@@ -144,8 +144,6 @@ a{
 }
 
 .cardIndex{
-    /*margin-top: 2.5em;
-    margin-bottom: 2.5em;*/
     margin: 2.5em 26em;
     border-radius: 1%;
     color: brown;
@@ -353,6 +351,10 @@ a{
     background-color: #EDD2F9;
 }
 
+.cardCatalogo{
+    margin: 3em 0;
+}
+
 /* productos */
 
 .bodyProductos{
@@ -518,7 +520,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin:  0.1em 3em;
+    margin:  0.2em 5em;
     color: #ffffff;
 }
 
@@ -526,7 +528,7 @@ a{
     display: flex;
     flex-direction: column ;
     align-items: center;       
-    margin: 0.1em 3em;
+    margin: 0.2em 5em;
     color: #ffffff;
 }
 
@@ -554,23 +556,30 @@ h5{
     color: yellow;
 }
 
+.newsletterlocacionTelefono a i{
+    color: #ffffff;
+    font-size: 3em;
+    margin-top: 0.1em;
+    margin-bottom: 0.25em;
+}
+
+.newsletterlocacionTelefono a i:hover{
+    color: yellow;
+}
+
 .correoEnviar{
     font-size: 1.4em;
     color: #ffffff;
+}
+
+.locationWhatsapp{
+    margin: 0.24em 3em 0 3em;
 }
 
 .newsletterCorreo{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2em 1.2em;
-    font-size: 1em;
-}
-
-.iconUbicacion{
-    height: 9em;
-    width: 9em;
-    padding: 2em 2em;
     margin: 0 4em 0 4em;
 }
 
@@ -640,9 +649,18 @@ h5{
         flex-direction: column;
     }
 
+
     .footerDerechos{
         flex-direction: column;
         background-color: #dddddd;
+    }
+
+    h3{
+        display: none;
+    }
+
+    h4{
+        display: none;
     }
 
 }
