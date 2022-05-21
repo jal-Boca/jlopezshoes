@@ -106,6 +106,7 @@ a{
     flex-wrap: nowrap;
     width: 90%;
     margin: auto;
+    align-items: center;
     background-color: #dddddd;
     padding: 2em;
 }
@@ -116,6 +117,7 @@ a{
     flex-direction: row-reverse;
     width: 90%;
     margin: auto;
+    align-items: center;
     background-color: #dddddd;
     padding: 2em;
 }
@@ -133,8 +135,8 @@ a{
 }
 
 .principalImagenes{
-    height: 18em;
-    width: 20em;
+    height: 30em;
+    width: 30em;
 }
 
 #principalHeaderlogo{
@@ -144,8 +146,12 @@ a{
 }
 
 .cardIndex{
-    margin: 2.5em 26em;
-    border-radius: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 2.5em 0 3.5em 0;
+    border-radius: 0.2em;
     color: brown;
     font-size: 1.2em;
     padding: 0.2em;
@@ -425,6 +431,23 @@ a{
 
 /* contacto-sale */
 
+.cardSale{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    text-align: center;
+    margin: 4em 0;
+}
+
+.card{
+    background-color: #dddddd;
+    padding: 0.3em;
+    color: brown;
+    border: 0.16em solid brown;
+    border-radius: 0.4em;
+}
+
 .bodyContactosale{
     display: grid; 
     grid-template-columns: 1fr;
@@ -459,42 +482,12 @@ a{
     color: #ffffff;
 }
 
-.botonEnviarcontacto{
-    margin-top: 2.5em;
-}
-
-.divSale{
-    background-color: #ece8ea;
-}
-
-.saleofertaComprar{
-    background-color: #dddddd;
-    margin: 3em 29em;
-    padding: 0.5em 0;
-    border-radius: 5%;
-}
-
 .contactoSaleh1{
     text-align: center;
     background-color: #dddddd;
     color: brown;
     font-size: 4em;
     padding: 0.2em;
-}
-
-.saleOfertah2{
-    color: brown;
-    font-size: 2em;
-}
-
-.saleTextofoto{
-    color: brown;
-    font-size: 1.2em;
-}
-
-.saleGaleria{
-    height: 25em;
-    width: 25em;
 }
 
 .botonVolver{
@@ -975,12 +968,6 @@ h5{
         background-color: #ece8ea;
     }
 
-    .divSale{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     #headercontactoSalelogo{
         height: 4.3em;
         width: 4.3em;
@@ -993,28 +980,6 @@ h5{
         margin: 1.5em 2em 3em 2em;
     }
 
-    .saleofertaComprar{
-        background-color: #B3B6B7;
-        margin: 3em 29em;
-        padding: 0.5em 0.5em;
-        border-radius: 5%;
-    }
-
-    .saleOfertah2{
-        color: brown;
-        font-size: 2em;
-    }
-    
-    .saleTextofoto{
-        color: brown;
-        font-size: 1.6em;
-    }
-
-    .saleGaleria{
-        height: 24em;
-        width: 24em;
-    }
-
 }
 
 @media (max-width:400px){
@@ -1024,10 +989,6 @@ h5{
     }
 
     .mainContactosale{
-        background-color: #dddddd;
-    }
-
-    .divSale{
         background-color: #dddddd;
     }
 
@@ -1048,21 +1009,6 @@ h5{
         height: 3em;
         width: 3em;
         margin-top: 0.4em;
-    }
-
-    .saleOfertah2{
-        color: brown;
-        font-size: 2.4em;
-    }
-    
-    .saleTextofoto{
-        color: brown;
-        font-size: 1.8em;
-    }
-
-    .saleGaleria{
-        height: 23em;
-        width: 23em;
     }
 }
 
