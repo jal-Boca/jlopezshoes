@@ -333,27 +333,42 @@ a{
     margin-top: 1em;
 }
 
+.catalogoFiguremain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    text-align: center;
+    gap: 2em;
+}
+
 .imagenesCatalogo{
+    background-color: #C39BD3;
     border: 0.13em dashed #7D3C98;
-    height: 25em;
-    width: 35em;
-    margin-top: 3em;
-    padding: 0.4em;
+    border-radius: 0.6em;
+    height: 26em;
+    width: 30em;
+    margin-top: 2em;
+    padding: 0.2em;
+    box-shadow: 1em 0.8em 0.8em #C39BD3;
 }
 
 .catalogoArth2{
-    font-size: 1.8em;
+    font-size: 1.5em;
     color: brown;
     padding: 0.1em;
+    margin-top: 0.6em;
 }
 
 .catalogoDescripcionfoto{
+    font-size: 1em;
     color: #7D3C98;
     padding: 0.3em;
 }
 
 .catalogoFigurefondo{
-    background-color: #EDD2F9;
+    margin: 2em 0;
+
 }
 
 .cardCatalogo{
@@ -655,27 +670,41 @@ h5{
     }
 
     .figureImgdiv{
-        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        /*flex-wrap: wrap;
         border: 0;
         margin: auto;
-        padding: 0;
+        padding: 0;*/
     }
     
     .figureImgdivinvertido{
-        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        /*flex-wrap: wrap;
         border: 0;
         margin: auto;
-        padding: 0;
+        padding: 0;*/
     }
 
     #indexImg{
-        margin-left: 12.5em;
-        margin-top: 6em;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        /*margin-left: 12.5em;
+        margin-top: 6em;*/
     }
 
     #indeximgInvertido{
-        margin-right: 12.5em;
-        margin-top: 6em;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        /*margin-right: 12.5em;
+        margin-top: 6em;*/
     }
 
     .footerTarjetasredes{
@@ -701,7 +730,11 @@ h5{
 @media (max-width:400px){
     
     .bodyIndex{
-        gap: 0.1em;
+        gap: 0;
+    }
+
+    .headerIndex{
+        height: 25.3em;
     }
 
     .principalHeader{
@@ -723,21 +756,25 @@ h5{
         border: 0;
     }
 
-    .figureImgdiv{
+    .textIndexh2{
+        display: none;
+    }
+
+    /*.figureImgdiv{
         border: 0;
     }
     
     .figureImgdivinvertido{
         border: 0;
-    }
+    }*/
 
     #indexImg{
-        margin-left: 4.6em;
+        /*margin-left: 4.6em;*/
         margin-top: 6em;
     }
 
     #indeximgInvertido{
-        margin-right: 6.1em;
+        /*margin-right: 6.1em;*/
         margin-top: 6em;
     }
     
@@ -753,6 +790,11 @@ h5{
 
 @media (max-width:800px){  /*nosotros*/
 
+    .mainNosotros{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
     .headerNosotros{
         height: 25.4em;
     }
@@ -761,15 +803,17 @@ h5{
         font-size: 1.8em;
     }
 
+    .nosotrosh2Foto{
+        margin-top: 1em;
+    }
+
     .nCarouselimg{
         height: 18em;
         width: 22em;
     }
 
     .nosotrosHistoriah2{
-        font-size: 2em;
-        color: #ece8ea;
-        margin-top: 0;
+        display: none;
     }
 
     .fotoParrafo{
@@ -804,12 +848,19 @@ h5{
 @media (max-width:400px){
 
     .mainNosotros{
-        
         background-color: #dddddd;
     }
     
     .nosotrosHistoriah1{
         font-size: 1.4em;
+    }
+
+    .nosotrosHistoriah2{
+        display: none;
+    }
+
+    .nosotrosh2Foto{
+        margin-top: 1em;
     }
 
     h3{
@@ -858,6 +909,12 @@ h5{
         font-size: 1.4em;
         padding: 0.2em;
         margin-top: 0;
+    }
+
+    .catalogoFiguremain{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
     }
 
     .imagenesCatalogo{
@@ -919,9 +976,19 @@ h5{
     }
 
     .productosGaleriasection{
-        display: flex;
-        flex-direction: column;
+        /*display: flex;*/
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /*flex-direction: column;*/
         align-items: center;
+    }
+
+    .productosFotos{
+        font-size: 1em;
+        color: #ffffff;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding: 0.1em;
     }
 
 }
@@ -931,6 +998,11 @@ h5{
     .principalProductosh1{
         font-size: 2em;
         padding: 0;
+    }
+
+    .productosGaleriasection{
+        grid-template-columns: 1fr;
+        align-items: center;
     }
 
     .productosFotos{
@@ -977,9 +1049,8 @@ h5{
 
     .contactoFormulario{
         font-size: 1.2em;
-        margin: 1.5em 2em 3em 2em;
+        margin: 1.5em 10em 3em 10em;
     }
-
 }
 
 @media (max-width:400px){
@@ -1002,13 +1073,20 @@ h5{
 
     .contactoFormulario{
         font-size: 1em;
-        margin: 1.5em 2em 3em 2em;
+        margin: 1.5em 4em 3em 4em;
     }
     
     #headercontactoSalelog{
         height: 3em;
         width: 3em;
         margin-top: 0.4em;
+    }
+
+    .cardSale{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
