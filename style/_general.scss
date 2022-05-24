@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gujarati&family=Libre+Baskerville:wght@700&family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gujarati&family=Libre+Baskerville:wght@700&family=Libre+Bodoni:ital@1&family=Merriweather:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.botonVolver{
+    margin: 1em;
+}
+
+/* footer */
+
+.footerTarjetasredes{
+    display: flex;
+    flex-direction: row;
+    font-family:  'Merriweather', serif;
+    font-size: 0.6em;
+    background-color: brown;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: auto;
+}
+
+.materialesLineash3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:  0.2em 5em;
+    color: #ffffff;
+}
+
+.tarjetasRedesh3{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;       
+    margin: 0.2em 5em;
+    color: #ffffff;
+}
+
+h3{
+    font-size: 1.8em;
+}
+
+h4{
+    font-size: 1.4em;
+}
+
+h5{
+    font-size: 1.2em;
+}
+
+.faceInstavisamaster a i{
+    color: #ffffff;
+    font-size: 3em;
+    flex-direction: column;
+    margin-top: 0.5em;
+    padding: 0.1em;
+}
+
+.faceInstavisamaster a i:hover{
+    color: yellow;
+}
+
+.newsletterlocacionTelefono a i{
+    color: #ffffff;
+    font-size: 3em;
+    margin-top: 0.1em;
+    margin-bottom: 0.25em;
+}
+
+.newsletterlocacionTelefono a i:hover{
+    color: yellow;
+}
+
+.correoEnviar{
+    font-size: 1.4em;
+    color: #ffffff;
+}
+
+.locationWhatsapp{
+    margin: 0.24em 3em 0 3em;
+}
+
+.newsletterCorreo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 4em 0 4em;
+}
+
+.footerCopy{
+    background-color: #ece8ea;
+    color: brown;
+    font-family:  'Merriweather', serif;
+    font-size: 0.6em;
+    text-align: center;
+    height: 1.5em;
+    padding: 0.1em;
+    margin-bottom: 0;
+}
