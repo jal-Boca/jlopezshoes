@@ -1,0 +1,70 @@
+
+/* productos */
+
+.bodyProductos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    background-color: #ece8ea;
+}
+
+.mainProductos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    background-color: #ece8ea
+}
+
+.headerProductos{
+    background-image: url(../imagenes/fondoprodustos.png);
+    height: 30em;
+}
+
+.principalProductosh1{
+    background-color: brown;
+    color: #ffffff;
+    font-family: 'Libre Bodoni', serif;
+    font-size: 3.5em;
+    padding: 0.2em;
+}
+
+.productosGaleriasection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    background-color: #ece8ea;
+    gap: 1em;
+
+    .productosFotos{
+        background-color: brown;
+        font-family: 'Libre Bodoni', serif;
+        font-size: 1.2em;
+        color: #ffffff;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        padding: 0.1em;
+
+        .productosGaleriafotos{
+            height: 18em;
+            width: 18em;
+        }
+
+        .productosColortalle{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            background-color: #ece8ea;
+            color: brown;
+            font-family: 'Libre Bodoni', serif;
+            font-size: 0.8em;
+            padding: 0.2em;
+
+            .productosColortalleseleccion{
+                display: flex;
+                flex-direction: column;
+                justify-content: end;    
+            }
+        }
+    }
+}
+

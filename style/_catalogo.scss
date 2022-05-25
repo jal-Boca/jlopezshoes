@@ -1,0 +1,97 @@
+
+
+/* catalogo */
+
+.bodyCatalogo{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    font-family: 'Merriweather', serif;
+    background-color: #ece8ea;
+}
+
+.headerCatalogo{
+    background-image: url(../imagenes/fondocatalogo.png);
+    height: 30em;
+}
+
+.mainCatalogo{
+    background-color: #ece8ea;
+}
+
+.principalCatalogoh1{
+    font-size: 3.5em;
+    color: #7D3C98;
+    padding: 0.2em 0 0.4em 0;
+}
+
+.catalogoPublicidad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D7BDE2;
+    margin-left: 16em;
+    margin-right: 16em;
+}
+
+.catalogoPublicidadh2{
+    font-size: 2em;
+    color: #7D3C98;
+    padding: 0.4em;
+}
+
+.catalogoPublicidadp{
+    font-size: 1em;
+    padding: 0.8em 1.4em;
+    color: #7D3C98;
+}
+
+.catalogoLonuevoh2{
+    font-size: 1.8em;
+    padding: 0.8em;
+    color: #ffffff;
+    background-color: brown;
+    margin-top: 1em;
+}
+
+.catalogoFiguremain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    text-align: center;
+    gap: 2em;
+}
+
+.imagenesCatalogo{
+    background-color: #C39BD3;
+    border: 0.13em dashed #7D3C98;
+    border-radius: 0.6em;
+    height: 26em;
+    width: 30em;
+    margin-top: 2em;
+    padding: 0.2em;
+    box-shadow: 1em 0.8em 0.8em #C39BD3;
+}
+
+.catalogoArth2{
+    font-size: 1.5em;
+    color: brown;
+    padding: 0.1em;
+    margin-top: 0.6em;
+}
+
+.catalogoDescripcionfoto{
+    font-size: 1em;
+    color: #7D3C98;
+    padding: 0.3em;
+}
+
+.catalogoFigurefondo{
+    margin: 2em 0;
+
+}
+
+.cardCatalogo{
+    margin: 3em 0;
+}

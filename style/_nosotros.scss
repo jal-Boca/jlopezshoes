@@ -1,0 +1,125 @@
+
+/* nosotros */
+
+.bodyNosotros{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+.headerNosotros{
+    background-image: url(../imagenes/fondonosotros.png);
+    height: 30em;
+}
+
+.mainNosotros{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    background-color: #ece8ea;
+}
+
+.nosotrosHistoriah1{
+    text-align: center;
+    font-family: 'Libre Bodoni', serif;
+    font-size: 2.6em;
+    color: #ece8ea;
+    background-color: brown;
+    padding: 0.5em;
+    margin-bottom: 0;
+}
+
+.col{
+    background-color: rgb(180, 140, 140);
+    padding: 0.6em;
+}
+
+.nCarouselimg{
+    border: 0.18em solid #ece8ea;
+    height: 26em;
+    width: 30em;
+}
+
+.nosotrosHistoriah2{
+    font-family: 'Libre Bodoni', serif;
+    font-size: 2.5em;
+    color: #d22333;
+    margin-top: 0.8em;
+    padding-bottom: 1em;
+}
+
+.fotoParrafo{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border: 0.1em solid #d22333;
+    padding: 1.2em;
+    margin: 0 3em 5em 3em;
+
+    .nosotrosh2Foto{
+        font-family: 'Libre Bodoni', serif;
+        font-size: 1.8em;
+        color: #d22333;
+        margin-bottom: 1em;
+    }
+
+    .nosotrosparrafoComienzo{
+        font-family: 'Libre Bodoni', serif;
+        font-size: 1.3em;
+        color: #d22333;
+        margin-left: 0.5em;  
+    }
+}
+
+.videoParrafo{
+    margin: 3em 17em 8em 17em;
+    border: 0.2em dotted #d22333;
+
+    .nosotrosparrafoVideo{ 
+        font-family: 'Libre Bodoni', serif;
+        color: #d22333;
+
+        .nosotrosh2Video{
+            font-family: 'Libre Bodoni', serif;
+            font-size: 1.8em;
+            color: #d22333;
+            padding: 1em ; 
+        }
+
+        .nosotrosParrafopie{
+            font-family: 'Libre Bodoni', serif;
+            font-size: 1.3em;
+            color: #d22333;
+            padding: 1.2em;
+        }
+    }
+}
+
+.nosotrosImagenfigure:hover{
+    transform: scale(1.4);
+    transition: all 2s;
+}
+
+.nosotrosFoto{
+    height: 20em;
+    width: 35em;
+}
+
+.nosotrosVideo{
+    margin: 2em;
+}
+
+.nosotrosTitulofigcaption{
+    font-family: 'Libre Bodoni', serif;
+    font-size: 1.1em;
+    color: #d22333;
+}
+
+.nosotrosTitulofigcaptionuno{
+    font-family: 'Libre Bodoni', serif;
+    font-size: 1.1em;
+    color: #d22333;
+}
+
+
+
