@@ -100,3 +100,53 @@
 .botonContacto:hover::after{
     top: 0;
 }
+
+     /*mapa*/
+
+.contactoButton{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2.4em;
+    margin-top: 0.8em;
+}
+
+$enlaces:(
+    productos: #ece8ea,
+    catalogo: #ece8ea,
+);
+
+@each $enlace, $color in $enlaces{
+    .btn--#{$enlace}{
+        text-decoration: none;
+        font-size: 1.2em;
+        background-color: $color;
+        padding: 0.5em 1em;
+        border-radius: 0.5em;
+        border: 0.1em solid brown;
+        color: brown;
+    }
+};
+
+     /*extend*/
+
+.salebuttonEnlace{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4em;
+}     
+
+.saleButton{
+    text-decoration: none;
+    background-color: brown;
+    color: #ffffff;
+    border-radius: 0.5em;
+    padding: 0.8em 1.2em;
+}
+
+.btn--salecatalogo{
+    @extend.saleButton;
+}
+
+.btn--saleproductos{
+    @extend.saleButton;
+}

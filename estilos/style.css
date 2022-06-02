@@ -253,6 +253,57 @@ h5 {
   top: 0;
 }
 
+/*mapa*/
+.contactoButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 2.4em;
+  margin-top: 0.8em;
+}
+
+.btn--productos {
+  text-decoration: none;
+  font-size: 1.2em;
+  background-color: #ece8ea;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  border: 0.1em solid brown;
+  color: brown;
+}
+
+.btn--catalogo {
+  text-decoration: none;
+  font-size: 1.2em;
+  background-color: #ece8ea;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  border: 0.1em solid brown;
+  color: brown;
+}
+
+/*extend*/
+.salebuttonEnlace {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 4em;
+}
+
+.saleButton, .btn--salecatalogo, .btn--saleproductos {
+  text-decoration: none;
+  background-color: brown;
+  color: #ffffff;
+  border-radius: 0.5em;
+  padding: 0.8em 1.2em;
+}
+
 /* catalogo */
 .bodyCatalogo {
   display: -ms-grid;
@@ -365,6 +416,27 @@ h5 {
 
 .cardCatalogo {
   margin: 3em 0;
+}
+
+/*mixin*/
+.fondoclarooscuro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fondoscatalogoClaro {
+  width: 100%;
+  height: 2em;
+  background-color: #C39BD3;
+  margin-top: 1.7em;
+}
+
+.fondoscatalogoOscuro {
+  width: 100%;
+  height: 2em;
+  background-color: #7D3C98;
+  margin-top: 1.7em;
 }
 
 /* productos */
