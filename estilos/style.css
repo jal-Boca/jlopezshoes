@@ -592,7 +592,7 @@ h5 {
       -ms-flex-align: center;
           align-items: center;
   border: 0.1em solid #d22333;
-  padding: 1.2em;
+  padding: 1.2em 0.5em;
   margin: 0 3em 5em 3em;
 }
 
@@ -600,12 +600,12 @@ h5 {
   font-family: 'Libre Bodoni', serif;
   font-size: 1.8em;
   color: #d22333;
-  margin-bottom: 1em;
+  margin: 1em 1em;
 }
 
 .fotoParrafo .nosotrosparrafoComienzo {
   font-family: 'Libre Bodoni', serif;
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: #d22333;
   margin-left: 0.5em;
 }
@@ -629,7 +629,7 @@ h5 {
 
 .videoParrafo .nosotrosparrafoVideo .nosotrosParrafopie {
   font-family: 'Libre Bodoni', serif;
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: #d22333;
   padding: 1.2em;
 }
@@ -826,6 +826,10 @@ ul li .ulliSale {
   font-family: 'Merriweather', serif;
   font-size: 1.2em;
   color: #d22333;
+}
+
+.textIndexp {
+  font-size: 1em;
 }
 
 .encabezadoLineasindexh2 {
