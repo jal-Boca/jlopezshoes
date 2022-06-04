@@ -317,7 +317,7 @@ h5 {
 }
 
 .headerCatalogo {
-  background-image: url(../imagenes/fondocatalogo.png);
+  background-image: url(../imagenes/fondocatalogoc.png);
   height: 30em;
 }
 
@@ -461,7 +461,7 @@ h5 {
 }
 
 .headerProductos {
-  background-image: url(../imagenes/fondoprodustos.png);
+  background-image: url(../imagenes/fondoprodustosc.png);
   height: 30em;
 }
 
@@ -540,7 +540,7 @@ h5 {
 }
 
 .headerNosotros {
-  background-image: url(../imagenes/fondonosotros.png);
+  background-image: url(../imagenes/fondonosotrosc.png);
   height: 30em;
 }
 
@@ -679,7 +679,7 @@ h5 {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: headerIndex;
-  background-image: url(../imagenes/fondoHeader.png);
+  background-image: url(../imagenes/fondoHeaderc.png);
   height: 30em;
 }
 
