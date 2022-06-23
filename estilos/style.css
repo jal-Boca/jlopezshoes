@@ -10,7 +10,6 @@
   margin: 1em;
 }
 
-/* footer */
 .footerTarjetasredes {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -129,7 +128,6 @@ h5 {
   margin-bottom: 0;
 }
 
-/* contacto-sale */
 .principalheaderContactosale {
   font-family: 'Merriweather', serif;
   font-size: 1.8em;
@@ -318,7 +316,6 @@ h5 {
   padding: 0.8em 1.2em;
 }
 
-/* catalogo */
 .bodyCatalogo {
   display: -ms-grid;
   display: grid;
@@ -333,6 +330,7 @@ h5 {
 .headerCatalogo {
   background-image: url(../imagenes/fondocatalogoc.png);
   height: 30em;
+  width: 100vw;
 }
 
 .mainCatalogo {
@@ -452,7 +450,6 @@ h5 {
   margin-top: 1.7em;
 }
 
-/* productos */
 .bodyProductos {
   display: -ms-grid;
   display: grid;
@@ -476,6 +473,7 @@ h5 {
 .headerProductos {
   background-image: url(../imagenes/fondoprodustosc.png);
   height: 30em;
+  width: 100vw;
 }
 
 .principalProductosh1 {
@@ -542,7 +540,6 @@ h5 {
           justify-content: end;
 }
 
-/* nosotros */
 .bodyNosotros {
   display: -ms-grid;
   display: grid;
@@ -555,6 +552,7 @@ h5 {
 .headerNosotros {
   background-image: url(../imagenes/fondonosotrosc.png);
   height: 30em;
+  width: 100vw;
 }
 
 .mainNosotros {
@@ -694,6 +692,7 @@ h5 {
   grid-area: headerIndex;
   background-image: url(../imagenes/fondoHeaderc.png);
   height: 30em;
+  width: 100vw;
 }
 
 .mainIndex {
@@ -758,32 +757,14 @@ ul li .ulliSale {
   margin-top: 0.2em;
 }
 
-.fondoLogoh1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.principalLogoh1 {
   background-color: brown;
 }
 
-.fondoLogoh1 .principalLogoimg {
-  height: 4em;
-  width: 6em;
-}
-
-.fondoLogoh1 .logoh1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-family: 'Libre Baskerville', serif;
-  font-size: 1.8em;
+.logoH1 {
+  font-size: 3em;
   color: #ffffff;
-  margin-left: 0.6em;
+  padding: 0.2em 0;
 }
 
 .articleIndex {
@@ -791,7 +772,7 @@ ul li .ulliSale {
   font-size: 1.2em;
   color: #d22333;
   margin: 2em 10em 4em;
-  border-bottom: 0.1em solid #d22333;
+  border-bottom: 0.1em solid brown;
 }
 
 .articleIndex .articleIndexh2 {
@@ -807,7 +788,7 @@ ul li .ulliSale {
   display: flex;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  width: 90%;
+  width: 90vw;
   margin: auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -826,7 +807,7 @@ ul li .ulliSale {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-  width: 90%;
+  width: 90vw;
   margin: auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -876,11 +857,17 @@ ul li .ulliSale {
 }
 
 @media (max-width: 800px) {
-  /*index*/
   .bodyIndex {
     gap: 1em;
   }
-  .principalHeader {
+  .headerIndex {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: headerIndex;
+    background-image: none;
+    height: 20.34em;
+  }
+  .headerIndex .principalHeader {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -905,11 +892,10 @@ ul li .ulliSale {
     border-radius: 10%;
     padding: 0 0.3em;
   }
-  .headerIndex {
-    height: 20.34em;
-  }
-  .mainIndex {
-    background-color: #ece8ea;
+  .logoH1 {
+    font-size: 2em;
+    color: #ffffff;
+    padding: 0.1em 0;
   }
   .articleIndex {
     border-bottom: 0;
@@ -990,27 +976,56 @@ ul li .ulliSale {
     gap: 0;
   }
   .headerIndex {
-    height: 21.3em;
-  }
-  .principalHeader {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    background-color: #ece8ea;
+    height: 21.4em;
   }
   .mainIndex {
     background-color: #ece8ea;
     margin-bottom: 0;
   }
+  .logoH1 {
+    font-size: 1.6em;
+    color: #ffffff;
+    padding: 0.1em;
+    margin-right: 0em;
+  }
   .articleIndex {
-    border: 0;
+    margin: 0 1em;
+    border-bottom: none;
+  }
+  .articleIndex .articleIndexh2 {
+    font-size: 0.8em;
+  }
+  .textIndexh2 {
+    display: none;
+  }
+  .figureImgdiv {
+    margin: 0 1.2em;
+  }
+  .figureImgdivinvertido {
+    margin: 0 1.2em;
   }
   #indexImg {
-    margin-top: 6em;
+    margin-top: 1em;
   }
   #indeximgInvertido {
-    margin-top: 6em;
+    margin-top: 1em;
+  }
+  .principalImagenes {
+    height: 19.5em;
+    width: 19.5em;
+  }
+  .encabezadoLineasindexh2 {
+    font-size: 1.2em;
+    padding-bottom: 0.6em;
+  }
+  .textIndexp {
+    font-size: 0.8em;
+  }
+  .cardIndex {
+    display: none;
+  }
+  .botonVolver {
+    margin: 1em;
   }
   .footerTarjetasredes {
     -webkit-box-orient: vertical;
@@ -1028,7 +1043,6 @@ ul li .ulliSale {
 }
 
 @media (max-width: 800px) {
-  /*nosotros*/
   .mainNosotros {
     display: -ms-grid;
     display: grid;
@@ -1036,7 +1050,15 @@ ul li .ulliSale {
         grid-template-columns: 1fr;
   }
   .headerNosotros {
+    background-image: none;
     height: 21.3em;
+  }
+  .headerNosotros .principalHeader {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #ece8ea;
   }
   .nosotrosHistoriah1 {
     font-size: 1.8em;
@@ -1080,15 +1102,45 @@ ul li .ulliSale {
 @media (max-width: 400px) {
   .mainNosotros {
     background-color: #dddddd;
+    width: 100vw;
   }
   .nosotrosHistoriah1 {
-    font-size: 1.4em;
+    font-size: 1.02em;
+    text-align: start;
+    color: #ffffff;
+  }
+  .col {
+    padding: 0.8em 2.6em;
+    margin-right: 14em;
+  }
+  .nCarouselimg {
+    height: 16em;
+    width: 20em;
   }
   .nosotrosHistoriah2 {
     display: none;
   }
-  .nosotrosh2Foto {
-    margin-top: 1em;
+  .fotoParrafo {
+    width: 100vw;
+  }
+  .fotoParrafo .nosotrosparrafoComienzo {
+    font-size: 1.2em;
+  }
+  .fotoParrafo .nosotrosImagenfigure {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .fotoParrafo .nosotrosImagenfigure .nosotrosFoto {
+    height: 16em;
+    width: 22em;
+  }
+  .fotoParrafo .nosotrosImagenfigure .nosotrosTitulofigcaptionuno {
+    font-size: 1.2em;
+  }
+  .videoParrafo {
+    display: none;
   }
   h3 {
     font-size: 1.4em;
@@ -1100,12 +1152,22 @@ ul li .ulliSale {
   h5 {
     font-size: 1em;
   }
+  .botonVolver {
+    display: none;
+  }
 }
 
 @media (max-width: 800px) {
-  /*catalogo*/
   .headerCatalogo {
+    background-image: none;
     height: 21.3em;
+  }
+  .headerCatalogo .principalHeader {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #ece8ea;
   }
   .principalCatalogoh1 {
     font-size: 3em;
@@ -1166,10 +1228,14 @@ ul li .ulliSale {
   .mainCatalogo {
     background-color: #dddddd;
   }
-  .catalogoPublicidadp {
-    font-size: 0.8em;
-    padding: 0;
-    margin: 0;
+  .catalogoPublicidad {
+    display: none;
+  }
+  .catalogoLonuevoh2 {
+    display: none;
+  }
+  .catalogoFigurefondo {
+    margin: 1em 0.5em;
   }
   .catalogoFiguremain {
     display: -webkit-box;
@@ -1189,9 +1255,9 @@ ul li .ulliSale {
   }
   .imagenesCatalogo {
     border: 0.03;
-    height: 18em;
-    width: 24em;
-    margin-top: 1em;
+    height: 16em;
+    width: 22em;
+    margin-top: 0.6em;
     padding: 0.2em;
   }
   .catalogoPublicidad {
@@ -1201,9 +1267,16 @@ ul li .ulliSale {
 }
 
 @media (max-width: 800px) {
-  /*productos*/
   .headerProductos {
+    background-image: none;
     height: 21.3em;
+  }
+  .headerProductos .principalHeader {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #ece8ea;
   }
   .principalProductosh1 {
     font-size: 2.8em;
@@ -1249,7 +1322,6 @@ ul li .ulliSale {
 }
 
 @media (max-width: 800px) {
-  /*contactosale*/
   .principalheaderContactosale {
     font-size: 1.8em;
     display: -webkit-box;

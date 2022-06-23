@@ -23,6 +23,7 @@
     grid-area: headerIndex;
     background-image: url(../imagenes/fondoHeaderc.png);
     height: 30em;
+    width: 100vw;
 }
 
 .mainIndex{
@@ -72,24 +73,14 @@ ul li{
     margin-top: 0.2em;
 }
 
-.fondoLogoh1{
-    display: flex;
-    justify-content: center;
+.principalLogoh1{
     background-color: brown;
+}
 
-    .principalLogoimg{
-        height: 4em;
-        width: 6em;
-    }
-
-    .logoh1{
-        display: flex;
-        align-items: center;
-        font-family: 'Libre Baskerville', serif;
-        font-size: 1.8em;
-        color: #ffffff;
-        margin-left: 0.6em;
-    }
+.logoH1{
+    font-size: 3em;
+    color: #ffffff;
+    padding: 0.2em 0;
 }
 
 .articleIndex{
@@ -97,7 +88,7 @@ ul li{
     font-size: 1.2em;
     color: #d22333;
     margin: 2em 10em 4em;
-    border-bottom: 0.1em solid #d22333;
+    border-bottom: 0.1em solid brown;
 
     .articleIndexh2{
         text-align: center;
@@ -110,7 +101,7 @@ ul li{
 .figureImgdiv{
     display: flex;
     flex-wrap: nowrap;
-    width: 90%;
+    width: 90vw;
     margin: auto;
     align-items: center;
     background-color: #dddddd;
@@ -121,7 +112,7 @@ ul li{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row-reverse;
-    width: 90%;
+    width: 90vw;
     margin: auto;
     align-items: center;
     background-color: #dddddd;
@@ -162,15 +153,20 @@ ul li{
 }
 
 
-@media (max-width:800px){  /*index*/
+@media (max-width:800px){
     
     .bodyIndex{
         gap: 1em;
     }
 
-    .principalHeader{
-        flex-direction: column;
-        background-color: #ece8ea;
+    .headerIndex{
+        grid-area: headerIndex;
+        background-image: none;
+        height:20.34em;
+        .principalHeader{
+            flex-direction: column;
+            background-color: #ece8ea;
+        }
     }
 
     ul li{
@@ -192,12 +188,10 @@ ul li{
         }
     }
 
-    .headerIndex{
-        height:20.34em;
-    }
-
-    .mainIndex{
-        background-color: #ece8ea;
+    .logoH1{
+        font-size: 2em;
+        color: #ffffff;
+        padding: 0.1em 0;
     }
 
     .articleIndex{
@@ -257,29 +251,69 @@ ul li{
     }
 
     .headerIndex{
-        height: 21.3em;
-    }
-
-    .principalHeader{
-        flex-direction: column;
-        background-color: #ece8ea;
-    }
+        height: 21.4em;}
 
     .mainIndex{
         background-color: #ece8ea;
         margin-bottom: 0;
     }
 
+    .logoH1{
+        font-size: 1.6em;
+        color: #ffffff;
+        padding: 0.1em;
+        margin-right: 0em;
+    }
+
     .articleIndex{
-        border: 0;
+        margin: 0 1em;
+        border-bottom: none;
+    
+        .articleIndexh2{
+            font-size: 0.8em;    
+        }
+    }
+
+    .textIndexh2{  
+        display: none;
+    }
+
+    .figureImgdiv{
+        margin: 0 1.2em;
+    }
+
+    .figureImgdivinvertido{
+        margin: 0 1.2em;
     }
 
     #indexImg{
-        margin-top: 6em;
+        margin-top: 1em;
     }
 
     #indeximgInvertido{
-        margin-top: 6em;
+        margin-top: 1em;
+    }
+
+    .principalImagenes{
+        height: 19.5em;
+        width: 19.5em;
+    }
+
+    .encabezadoLineasindexh2{
+        font-size: 1.2em;
+        padding-bottom: 0.6em;
+    }
+
+    .textIndexp{
+        font-size: 0.8em;
+    }
+
+    .cardIndex{
+        display: none;
+    }
+
+    .botonVolver{
+        margin: 1em;
     }
 
     .footerTarjetasredes{
@@ -292,7 +326,7 @@ ul li{
     }
 }
 
-@media (max-width:800px){  /*nosotros*/
+@media (max-width:800px){
 
     .mainNosotros{
         display: grid;
@@ -300,7 +334,12 @@ ul li{
     }
 
     .headerNosotros{
+        background-image: none;
         height: 21.3em;
+        .principalHeader{
+            flex-direction: column;
+            background-color: #ece8ea;
+        }
     }
 
     .nosotrosHistoriah1{
@@ -348,23 +387,57 @@ ul li{
 
 }
 
-
 @media (max-width:400px){
 
     .mainNosotros{
         background-color: #dddddd;
+        width: 100vw;
     }
     
     .nosotrosHistoriah1{
-        font-size: 1.4em;
+        font-size: 1.02em;
+        text-align: start;
+        color: #ffffff;
+        
+    }
+
+    .col{
+        padding: 0.8em 2.6em;
+        margin-right: 14em;
+    }
+
+    .nCarouselimg{
+        height: 16em;
+        width: 20em;
     }
 
     .nosotrosHistoriah2{
         display: none;
     }
 
-    .nosotrosh2Foto{
-        margin-top: 1em;
+    .fotoParrafo{
+        width: 100vw;
+    
+        .nosotrosparrafoComienzo{
+            font-size: 1.2em;  
+        }
+
+        .nosotrosImagenfigure{
+            flex-direction: column;
+            
+            .nosotrosFoto{
+                height: 16em;
+                width: 22em;
+            }
+
+            .nosotrosTitulofigcaptionuno{
+                font-size: 1.2em;
+            }
+        }
+    }
+
+    .videoParrafo{
+        display: none;
     }
 
     h3{
@@ -379,12 +452,21 @@ ul li{
     h5{
         font-size: 1em;
     }
+
+    .botonVolver{
+        display: none;
+    }
 }
 
-@media (max-width:800px){  /*catalogo*/
+@media (max-width:800px){
 
     .headerCatalogo{
+        background-image: none;
         height: 21.3em;
+        .principalHeader{
+            flex-direction: column;
+            background-color: #ece8ea;
+        }
     }
 
     .principalCatalogoh1{
@@ -451,10 +533,16 @@ ul li{
         background-color: #dddddd;
     }
 
-    .catalogoPublicidadp{
-        font-size: 0.8em;
-        padding: 0;
-        margin: 0;
+    .catalogoPublicidad{
+        display: none;
+    }
+
+    .catalogoLonuevoh2{
+        display: none;
+    }
+
+    .catalogoFigurefondo{
+        margin: 1em 0.5em;
     }
 
     .catalogoFiguremain{
@@ -470,9 +558,9 @@ ul li{
 
     .imagenesCatalogo{
         border: 0.03;
-        height: 18em;
-        width: 24em;
-        margin-top: 1em;
+        height: 16em;
+        width: 22em;
+        margin-top: 0.6em;
         padding: 0.2em;
     }
 
@@ -483,10 +571,15 @@ ul li{
 
 }
 
-@media (max-width:800px){/*productos*/
+@media (max-width:800px){
 
     .headerProductos{
+        background-image: none;
         height: 21.3em;
+        .principalHeader{
+            flex-direction: column;
+            background-color: #ece8ea;
+        }
     }
 
     .principalProductosh1{
@@ -532,7 +625,7 @@ ul li{
 
 }
 
-@media (max-width:800px){/*contactosale*/
+@media (max-width:800px){
 
     .principalheaderContactosale{
         font-size: 1.8em;

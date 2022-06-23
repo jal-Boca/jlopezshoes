@@ -1,7 +1,5 @@
 
 
-/* catalogo */
-
 .bodyCatalogo{
     display: grid;
     grid-template-columns: 1fr;
@@ -13,6 +11,7 @@
 .headerCatalogo{
     background-image: url(../imagenes/fondocatalogoc.png);
     height: 30em;
+    width: 100vw;
 }
 
 .mainCatalogo{
