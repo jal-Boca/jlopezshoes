@@ -8,6 +8,7 @@
 
 .botonVolver {
   margin: 1em;
+  width: 100vw;
 }
 
 .footerTarjetasredes {
@@ -24,6 +25,7 @@
   color: #ffffff;
   margin-bottom: 0;
   margin-top: auto;
+  width: 100vw;
 }
 
 .materialesLineash3 {
@@ -37,8 +39,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0.2em 5em;
   color: #ffffff;
+  width: 100vw;
 }
 
 .tarjetasRedesh3 {
@@ -52,8 +54,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0.2em 5em;
   color: #ffffff;
+  width: 100vw;
 }
 
 h3 {
@@ -100,7 +102,7 @@ h5 {
 }
 
 .locationWhatsapp {
-  margin: 0.24em 3em 0 3em;
+  width: 100vw;
 }
 
 .newsletterCorreo {
@@ -114,7 +116,7 @@ h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 4em 0 4em;
+  width: 100vw;
 }
 
 .footerCopy {
@@ -126,6 +128,7 @@ h5 {
   height: 1.5em;
   padding: 0.1em;
   margin-bottom: 0;
+  width: 100vw;
 }
 
 .principalheaderContactosale {
@@ -157,6 +160,7 @@ h5 {
           align-items: stretch;
   text-align: center;
   margin: 4em 0;
+  width: 100vw;
 }
 
 .cardSale .card {
@@ -165,6 +169,7 @@ h5 {
   color: brown;
   border: 0.16em solid brown;
   border-radius: 0.4em;
+  width: 100vw;
 }
 
 .bodyContactosale {
@@ -175,6 +180,11 @@ h5 {
   -ms-grid-rows: auto auto auto;
       grid-template-rows: auto auto auto;
   background-color: #ece8ea;
+  width: 100vw;
+}
+
+.mainContactosale {
+  width: 100vw;
 }
 
 .headerContactosale {
@@ -185,6 +195,7 @@ h5 {
   -ms-grid-rows: auto;
       grid-template-rows: auto;
   background-color: brown;
+  width: 100vw;
 }
 
 .headerContactosale #headercontactoSalelogo {
@@ -206,6 +217,7 @@ h5 {
   color: brown;
   font-size: 4em;
   padding: 0.1em;
+  width: 100vw;
 }
 
 .contactoFormulario {
@@ -213,7 +225,9 @@ h5 {
   color: #d22333;
   font-family: 'Merriweather', serif;
   font-size: 1.4em;
-  margin: 3em 17em 4em 17em;
+  margin: 3em 0;
+  padding: 0 8em;
+  width: 100vw;
 }
 
 .botonContacto {
@@ -265,7 +279,6 @@ h5 {
   top: 0;
 }
 
-/*mapa*/
 .contactoButton {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -297,7 +310,6 @@ h5 {
   color: brown;
 }
 
-/*extend*/
 .salebuttonEnlace {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -335,6 +347,7 @@ h5 {
 
 .mainCatalogo {
   background-color: #ece8ea;
+  width: 100vw;
 }
 
 .principalCatalogoh1 {
@@ -458,6 +471,7 @@ h5 {
   -ms-grid-rows: auto auto auto;
       grid-template-rows: auto auto auto;
   background-color: #ece8ea;
+  width: 100vw;
 }
 
 .mainProductos {
@@ -468,6 +482,7 @@ h5 {
   -ms-grid-rows: auto auto auto;
       grid-template-rows: auto auto auto;
   background-color: #ece8ea;
+  width: 100vw;
 }
 
 .headerProductos {
@@ -482,6 +497,7 @@ h5 {
   font-family: 'Libre Bodoni', serif;
   font-size: 3.5em;
   padding: 0.2em;
+  width: 100vw;
 }
 
 .productosGaleriasection {
@@ -491,7 +507,6 @@ h5 {
       grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   background-color: #ece8ea;
-  gap: 1em;
 }
 
 .productosGaleriasection .productosFotos {
@@ -547,6 +562,7 @@ h5 {
       grid-template-columns: 1fr;
   -ms-grid-rows: auto auto auto;
       grid-template-rows: auto auto auto;
+  width: 100vw;
 }
 
 .headerNosotros {
@@ -563,6 +579,7 @@ h5 {
   -ms-grid-rows: auto auto;
       grid-template-rows: auto auto;
   background-color: #ece8ea;
+  width: 100vw;
 }
 
 .nosotrosHistoriah1 {
@@ -573,11 +590,17 @@ h5 {
   background-color: brown;
   padding: 0.5em;
   margin-bottom: 0;
+  width: 100vw;
+}
+
+.row {
+  width: 100vw;
 }
 
 .col {
   background-color: #b48c8c;
-  padding: 0.6em;
+  padding: 1em;
+  width: 100vw;
 }
 
 .nCarouselimg {
@@ -592,6 +615,7 @@ h5 {
   color: #d22333;
   margin-top: 0.8em;
   padding-bottom: 1em;
+  width: 100vw;
 }
 
 .fotoParrafo {
@@ -602,9 +626,8 @@ h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 0.1em solid #d22333;
-  padding: 1.2em 0.5em;
-  margin: 0 3em 5em 3em;
+  width: 100vw;
+  margin-bottom: 2em;
 }
 
 .fotoParrafo .nosotrosh2Foto {
@@ -618,17 +641,18 @@ h5 {
   font-family: 'Libre Bodoni', serif;
   font-size: 1.2em;
   color: #d22333;
-  margin-left: 0.5em;
+  padding: 1em;
 }
 
 .videoParrafo {
-  margin: 3em 17em 8em 17em;
-  border: 0.2em dotted #d22333;
+  margin: 2em 0;
+  width: 100vw;
 }
 
 .videoParrafo .nosotrosparrafoVideo {
   font-family: 'Libre Bodoni', serif;
   color: #d22333;
+  width: 100vw;
 }
 
 .videoParrafo .nosotrosparrafoVideo .nosotrosh2Video {
@@ -643,6 +667,7 @@ h5 {
   font-size: 1.2em;
   color: #d22333;
   padding: 1.2em;
+  width: 100vw;
 }
 
 .nosotrosImagenfigure:hover {
@@ -684,6 +709,7 @@ h5 {
   min-height: 100vh;
   background-color: #ece8ea;
   font-family: 'Merriweather', serif;
+  width: 100vw;
 }
 
 .headerIndex {
@@ -692,6 +718,10 @@ h5 {
   grid-area: headerIndex;
   background-image: url(../imagenes/fondoHeaderc.png);
   height: 30em;
+  width: 100vw;
+}
+
+.navIndexullia {
   width: 100vw;
 }
 
@@ -707,6 +737,7 @@ h5 {
       grid-template-rows: auto;
   margin-bottom: 2em;
   background-color: #ece8ea;
+  width: 100vw;
 }
 
 .footerIndex {
@@ -729,6 +760,7 @@ h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100vw;
 }
 
 ul li {
@@ -759,12 +791,14 @@ ul li .ulliSale {
 
 .principalLogoh1 {
   background-color: brown;
+  width: 100vw;
 }
 
 .logoH1 {
   font-size: 3em;
   color: #ffffff;
   padding: 0.2em 0;
+  width: 100vw;
 }
 
 .articleIndex {
@@ -854,18 +888,23 @@ ul li .ulliSale {
   color: brown;
   font-size: 1.2em;
   padding: 0.2em;
+  width: 100vw;
+}
+
+.footerIndex {
+  width: 100vw;
 }
 
 @media (max-width: 800px) {
   .bodyIndex {
-    gap: 1em;
+    gap: 0;
   }
   .headerIndex {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: headerIndex;
     background-image: none;
-    height: 20.34em;
+    height: 21.34em;
   }
   .headerIndex .principalHeader {
     -webkit-box-orient: vertical;
@@ -895,7 +934,6 @@ ul li .ulliSale {
   .logoH1 {
     font-size: 2em;
     color: #ffffff;
-    padding: 0.1em 0;
   }
   .articleIndex {
     border-bottom: 0;
@@ -979,6 +1017,7 @@ ul li .ulliSale {
     height: 21.4em;
   }
   .mainIndex {
+    width: 100vw;
     background-color: #ece8ea;
     margin-bottom: 0;
   }
@@ -986,7 +1025,6 @@ ul li .ulliSale {
     font-size: 1.6em;
     color: #ffffff;
     padding: 0.1em;
-    margin-right: 0em;
   }
   .articleIndex {
     margin: 0 1em;
@@ -1086,6 +1124,7 @@ ul li .ulliSale {
     background: #dddddd;
     border: none;
     margin: 0;
+    width: 100vw;
   }
   h3 {
     font-size: 1.8em;
@@ -1106,16 +1145,15 @@ ul li .ulliSale {
   }
   .nosotrosHistoriah1 {
     font-size: 1.02em;
-    text-align: start;
     color: #ffffff;
+    width: 100vw;
   }
   .col {
-    padding: 0.8em 2.6em;
-    margin-right: 14em;
+    width: 100vw;
   }
   .nCarouselimg {
     height: 16em;
-    width: 20em;
+    width: 22em;
   }
   .nosotrosHistoriah2 {
     display: none;
@@ -1280,7 +1318,7 @@ ul li .ulliSale {
   }
   .principalProductosh1 {
     font-size: 2.8em;
-    padding: 0.2em;
+    width: 100vw;
   }
   .productosGaleriasection {
     display: -ms-grid;
@@ -1290,20 +1328,24 @@ ul li .ulliSale {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    width: 100vw;
   }
-  .productosFotos {
+  .productosGaleriasection .productosFotos {
     font-size: 1em;
     color: #ffffff;
     margin-top: 1em;
     margin-bottom: 1em;
     padding: 0.1em;
   }
+  .productosGaleriasection .productosGaleriafotos {
+    height: 14em;
+    width: 14em;
+  }
 }
 
 @media (max-width: 400px) {
   .principalProductosh1 {
-    font-size: 2.2em;
-    padding: 0.1em;
+    font-size: 1.8em;
   }
   .productosGaleriasection {
     -ms-grid-columns: 1fr;
@@ -1358,7 +1400,6 @@ ul li .ulliSale {
   }
   .contactoFormulario {
     font-size: 1.2em;
-    margin: 1.5em 10em 3em 10em;
   }
 }
 
@@ -1369,7 +1410,6 @@ ul li .ulliSale {
   }
   .contactoFormulario {
     font-size: 1em;
-    margin: 1.5em 4em 3em 4em;
   }
   #headercontactoSalelog {
     height: 3em;

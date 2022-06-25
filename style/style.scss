@@ -17,12 +17,17 @@
     min-height: 100vh;
     background-color: #ece8ea;
     font-family: 'Merriweather', serif;
+    width: 100vw;
 }
 
 .headerIndex{
     grid-area: headerIndex;
     background-image: url(../imagenes/fondoHeaderc.png);
     height: 30em;
+    width: 100vw;
+}
+
+.navIndexullia{
     width: 100vw;
 }
 
@@ -33,6 +38,7 @@
     grid-template-rows: auto;
     margin-bottom: 2em;
     background-color: #ece8ea;
+    width: 100vw;
 }
 
 .footerIndex{
@@ -47,6 +53,7 @@
     text-decoration: none;
     justify-content: space-evenly;
     align-items: center;
+    width: 100vw;
 }
 
 ul li{
@@ -75,12 +82,14 @@ ul li{
 
 .principalLogoh1{
     background-color: brown;
+    width: 100vw;
 }
 
 .logoH1{
     font-size: 3em;
     color: #ffffff;
     padding: 0.2em 0;
+    width: 100vw;
 }
 
 .articleIndex{
@@ -150,19 +159,23 @@ ul li{
     color: brown;
     font-size: 1.2em;
     padding: 0.2em;
+    width: 100vw;
 }
 
+.footerIndex{
+    width: 100vw;
+}
 
 @media (max-width:800px){
     
     .bodyIndex{
-        gap: 1em;
+        gap: 0;
     }
 
     .headerIndex{
         grid-area: headerIndex;
         background-image: none;
-        height:20.34em;
+        height:21.34em;
         .principalHeader{
             flex-direction: column;
             background-color: #ece8ea;
@@ -191,7 +204,6 @@ ul li{
     .logoH1{
         font-size: 2em;
         color: #ffffff;
-        padding: 0.1em 0;
     }
 
     .articleIndex{
@@ -241,7 +253,6 @@ ul li{
     h4{
         display: none;
     }
-
 }
 
 @media (max-width:400px){
@@ -254,6 +265,7 @@ ul li{
         height: 21.4em;}
 
     .mainIndex{
+        width: 100vw;
         background-color: #ece8ea;
         margin-bottom: 0;
     }
@@ -261,8 +273,7 @@ ul li{
     .logoH1{
         font-size: 1.6em;
         color: #ffffff;
-        padding: 0.1em;
-        margin-right: 0em;
+        padding: 0.1em;                      
     }
 
     .articleIndex{
@@ -370,6 +381,7 @@ ul li{
         background: #dddddd;
         border: none;
         margin: 0;
+        width: 100vw;
     }
 
     h3{
@@ -396,19 +408,17 @@ ul li{
     
     .nosotrosHistoriah1{
         font-size: 1.02em;
-        text-align: start;
         color: #ffffff;
-        
+        width: 100vw;
     }
 
     .col{
-        padding: 0.8em 2.6em;
-        margin-right: 14em;
+        width: 100vw;
     }
 
     .nCarouselimg{
         height: 16em;
-        width: 20em;
+        width: 22em;
     }
 
     .nosotrosHistoriah2{
@@ -419,7 +429,7 @@ ul li{
         width: 100vw;
     
         .nosotrosparrafoComienzo{
-            font-size: 1.2em;  
+            font-size: 1.2em;
         }
 
         .nosotrosImagenfigure{
@@ -568,7 +578,6 @@ ul li{
         margin: 0.8em;
         background-color: #D7BDE2;
     }
-
 }
 
 @media (max-width:800px){
@@ -584,30 +593,34 @@ ul li{
 
     .principalProductosh1{
         font-size: 2.8em;
-        padding: 0.2em;
+        width: 100vw;
     }
 
     .productosGaleriasection{
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
-    }
+        width: 100vw;
+        
+        .productosFotos{
+            font-size: 1em;
+            color: #ffffff;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            padding: 0.1em;
+        }
 
-    .productosFotos{
-        font-size: 1em;
-        color: #ffffff;
-        margin-top: 1em;
-        margin-bottom: 1em;
-        padding: 0.1em;
+        .productosGaleriafotos{
+            height: 14em;
+            width: 14em;
+        }
     }
-
 }
 
 @media (max-width:400px){
 
     .principalProductosh1{
-        font-size: 2.2em;
-        padding: 0.1em;
+        font-size: 1.8em;
     }
 
     .productosGaleriasection{
@@ -658,7 +671,6 @@ ul li{
 
     .contactoFormulario{
         font-size: 1.2em;
-        margin: 1.5em 10em 3em 10em;
     }
 }
 
@@ -671,7 +683,6 @@ ul li{
 
     .contactoFormulario{
         font-size: 1em;
-        margin: 1.5em 4em 3em 4em;
     }
     
     #headercontactoSalelog{

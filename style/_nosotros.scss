@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
+    width: 100vw;
 }
 
 .headerNosotros{
@@ -17,6 +18,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     background-color: #ece8ea;
+    width: 100vw;
 }
 
 .nosotrosHistoriah1{
@@ -27,11 +29,17 @@
     background-color: brown;
     padding: 0.5em;
     margin-bottom: 0;
+    width: 100vw;
+}
+
+.row{
+    width: 100vw;
 }
 
 .col{
     background-color: rgb(180, 140, 140);
-    padding: 0.6em;
+    padding: 1em;
+    width: 100vw;
 }
 
 .nCarouselimg{
@@ -46,15 +54,15 @@
     color: #d22333;
     margin-top: 0.8em;
     padding-bottom: 1em;
+    width: 100vw;
 }
 
 .fotoParrafo{
     display: flex;
     justify-items: center;
     align-items: center;
-    border: 0.1em solid #d22333;
-    padding: 1.2em 0.5em;
-    margin: 0 3em 5em 3em;
+    width: 100vw;
+    margin-bottom: 2em;
 
     .nosotrosh2Foto{
         font-family: 'Libre Bodoni', serif;
@@ -67,17 +75,18 @@
         font-family: 'Libre Bodoni', serif;
         font-size: 1.2em;
         color: #d22333;
-        margin-left: 0.5em;  
+        padding: 1em;
     }
 }
 
 .videoParrafo{
-    margin: 3em 17em 8em 17em;
-    border: 0.2em dotted #d22333;
+    margin: 2em 0;
+    width: 100vw;
 
     .nosotrosparrafoVideo{ 
         font-family: 'Libre Bodoni', serif;
         color: #d22333;
+        width: 100vw;
 
         .nosotrosh2Video{
             font-family: 'Libre Bodoni', serif;
@@ -91,6 +100,7 @@
             font-size: 1.2em;
             color: #d22333;
             padding: 1.2em;
+            width: 100vw;
         }
     }
 }

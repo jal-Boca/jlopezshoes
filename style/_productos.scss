@@ -5,13 +5,15 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
     background-color: #ece8ea;
+    width: 100vw;
 }
 
 .mainProductos{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
-    background-color: #ece8ea
+    background-color: #ece8ea;
+    width: 100vw;
 }
 
 .headerProductos{
@@ -26,6 +28,7 @@
     font-family: 'Libre Bodoni', serif;
     font-size: 3.5em;
     padding: 0.2em;
+    width: 100vw;
 }
 
 .productosGaleriasection{
@@ -33,7 +36,6 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     background-color: #ece8ea;
-    gap: 1em;
 
     .productosFotos{
         background-color: brown;
