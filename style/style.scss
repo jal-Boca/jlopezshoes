@@ -67,7 +67,7 @@ ul li{
     }
 
     .ulliSale{
-        background-color: brown;
+        background-color:#d22333;
         color: #ffffff;
         border-radius: 10%;
         padding: 0 0.3em;
@@ -90,6 +90,7 @@ ul li{
     color: #ffffff;
     padding: 0.2em 0;
     width: 100vw;
+    margin: auto;
 }
 
 .articleIndex{
@@ -110,10 +111,10 @@ ul li{
 .figureImgdiv{
     display: flex;
     flex-wrap: nowrap;
-    width: 90vw;
+    width: 100vw;
     margin: auto;
     align-items: center;
-    background-color: #dddddd;
+    background-color: #ece8ea;
     padding: 2em;
 }
 
@@ -121,7 +122,7 @@ ul li{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row-reverse;
-    width: 90vw;
+    width: 100vw;
     margin: auto;
     align-items: center;
     background-color: #dddddd;
@@ -137,6 +138,11 @@ ul li{
 
 .textIndexp{
     font-size: 1em;
+    padding: 1em;
+}
+
+.centerh2Pdiv{
+    margin: 0;
 }
 
 .encabezadoLineasindexh2{
@@ -166,6 +172,20 @@ ul li{
     width: 100vw;
 }
 
+@media (max-width:1100px){
+
+    .principalHeader{
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width:950px){
+
+    .principalHeader{
+        font-size: 1.6em;
+    }
+}
+
 @media (max-width:800px){
     
     .bodyIndex{
@@ -175,7 +195,7 @@ ul li{
     .headerIndex{
         grid-area: headerIndex;
         background-image: none;
-        height:21.34em;
+        height:15.8em;
         .principalHeader{
             flex-direction: column;
             background-color: #ece8ea;
@@ -215,7 +235,8 @@ ul li{
         flex-direction: column;
         align-items: stretch;
     }
-    
+
+  
     .figureImgdivinvertido{
         display: flex;
         flex-direction: column;
@@ -253,6 +274,37 @@ ul li{
     h4{
         display: none;
     }
+
+}
+
+@media (max-width:600px){
+   
+    .principalImagenes{
+        height: 26em;
+        width: 26em;
+    }
+
+    .textIndexh2{  
+        display: none;
+    }
+}
+
+@media (max-width:500px){
+   
+    .principalImagenes{
+        height: 20em;
+        width: 20em;
+    }
+
+    .logoH1{
+        font-size: 1.6em;
+        color: #ffffff;
+        padding: 0.1em;                      
+    }
+
+    .textIndexh2{  
+        display: none;
+    }
 }
 
 @media (max-width:400px){
@@ -260,9 +312,6 @@ ul li{
     .bodyIndex{
         gap: 0;
     }
-
-    .headerIndex{
-        height: 21.4em;}
 
     .mainIndex{
         width: 100vw;
@@ -289,25 +338,9 @@ ul li{
         display: none;
     }
 
-    .figureImgdiv{
-        margin: 0 1.2em;
-    }
-
-    .figureImgdivinvertido{
-        margin: 0 1.2em;
-    }
-
-    #indexImg{
-        margin-top: 1em;
-    }
-
-    #indeximgInvertido{
-        margin-top: 1em;
-    }
-
     .principalImagenes{
-        height: 19.5em;
-        width: 19.5em;
+        height: 16em;
+        width: 16em;
     }
 
     .encabezadoLineasindexh2{
@@ -321,10 +354,6 @@ ul li{
 
     .cardIndex{
         display: none;
-    }
-
-    .botonVolver{
-        margin: 1em;
     }
 
     .footerTarjetasredes{
@@ -346,7 +375,7 @@ ul li{
 
     .headerNosotros{
         background-image: none;
-        height: 21.3em;
+        height: 15.8em;
         .principalHeader{
             flex-direction: column;
             background-color: #ece8ea;
@@ -472,7 +501,7 @@ ul li{
 
     .headerCatalogo{
         background-image: none;
-        height: 21.3em;
+        height: 15.8em;
         .principalHeader{
             flex-direction: column;
             background-color: #ece8ea;
@@ -584,7 +613,7 @@ ul li{
 
     .headerProductos{
         background-image: none;
-        height: 21.3em;
+        height: 15.8em;
         .principalHeader{
             flex-direction: column;
             background-color: #ece8ea;
@@ -593,7 +622,6 @@ ul li{
 
     .principalProductosh1{
         font-size: 2.8em;
-        width: 100vw;
     }
 
     .productosGaleriasection{

@@ -7,8 +7,8 @@
 }
 
 .botonVolver {
-  margin: 1em;
-  width: 100vw;
+  margin: auto;
+  margin-bottom: 1em;
 }
 
 .footerTarjetasredes {
@@ -226,7 +226,7 @@ h5 {
   font-family: 'Merriweather', serif;
   font-size: 1.4em;
   margin: 3em 0;
-  padding: 0 8em;
+  padding: 0 6em;
   width: 100vw;
 }
 
@@ -496,7 +496,7 @@ h5 {
   color: #ffffff;
   font-family: 'Libre Bodoni', serif;
   font-size: 3.5em;
-  padding: 0.2em;
+  /*padding: 0.2em 0;*/
   width: 100vw;
 }
 
@@ -777,7 +777,7 @@ ul li a {
 }
 
 ul li .ulliSale {
-  background-color: brown;
+  background-color: #d22333;
   color: #ffffff;
   border-radius: 10%;
   padding: 0 0.3em;
@@ -799,6 +799,7 @@ ul li .ulliSale {
   color: #ffffff;
   padding: 0.2em 0;
   width: 100vw;
+  margin: auto;
 }
 
 .articleIndex {
@@ -822,12 +823,12 @@ ul li .ulliSale {
   display: flex;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  width: 90vw;
+  width: 100vw;
   margin: auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #dddddd;
+  background-color: #ece8ea;
   padding: 2em;
 }
 
@@ -841,7 +842,7 @@ ul li .ulliSale {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-  width: 90vw;
+  width: 100vw;
   margin: auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -859,6 +860,11 @@ ul li .ulliSale {
 
 .textIndexp {
   font-size: 1em;
+  padding: 1em;
+}
+
+.centerh2Pdiv {
+  margin: 0;
 }
 
 .encabezadoLineasindexh2 {
@@ -895,6 +901,18 @@ ul li .ulliSale {
   width: 100vw;
 }
 
+@media (max-width: 1100px) {
+  .principalHeader {
+    font-size: 1.8em;
+  }
+}
+
+@media (max-width: 950px) {
+  .principalHeader {
+    font-size: 1.6em;
+  }
+}
+
 @media (max-width: 800px) {
   .bodyIndex {
     gap: 0;
@@ -904,7 +922,7 @@ ul li .ulliSale {
     -ms-grid-column: 1;
     grid-area: headerIndex;
     background-image: none;
-    height: 21.34em;
+    height: 15.8em;
   }
   .headerIndex .principalHeader {
     -webkit-box-orient: vertical;
@@ -1009,12 +1027,34 @@ ul li .ulliSale {
   }
 }
 
+@media (max-width: 600px) {
+  .principalImagenes {
+    height: 26em;
+    width: 26em;
+  }
+  .textIndexh2 {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .principalImagenes {
+    height: 20em;
+    width: 20em;
+  }
+  .logoH1 {
+    font-size: 1.6em;
+    color: #ffffff;
+    padding: 0.1em;
+  }
+  .textIndexh2 {
+    display: none;
+  }
+}
+
 @media (max-width: 400px) {
   .bodyIndex {
     gap: 0;
-  }
-  .headerIndex {
-    height: 21.4em;
   }
   .mainIndex {
     width: 100vw;
@@ -1036,21 +1076,9 @@ ul li .ulliSale {
   .textIndexh2 {
     display: none;
   }
-  .figureImgdiv {
-    margin: 0 1.2em;
-  }
-  .figureImgdivinvertido {
-    margin: 0 1.2em;
-  }
-  #indexImg {
-    margin-top: 1em;
-  }
-  #indeximgInvertido {
-    margin-top: 1em;
-  }
   .principalImagenes {
-    height: 19.5em;
-    width: 19.5em;
+    height: 16em;
+    width: 16em;
   }
   .encabezadoLineasindexh2 {
     font-size: 1.2em;
@@ -1061,9 +1089,6 @@ ul li .ulliSale {
   }
   .cardIndex {
     display: none;
-  }
-  .botonVolver {
-    margin: 1em;
   }
   .footerTarjetasredes {
     -webkit-box-orient: vertical;
@@ -1089,7 +1114,7 @@ ul li .ulliSale {
   }
   .headerNosotros {
     background-image: none;
-    height: 21.3em;
+    height: 15.8em;
   }
   .headerNosotros .principalHeader {
     -webkit-box-orient: vertical;
@@ -1198,7 +1223,7 @@ ul li .ulliSale {
 @media (max-width: 800px) {
   .headerCatalogo {
     background-image: none;
-    height: 21.3em;
+    height: 15.8em;
   }
   .headerCatalogo .principalHeader {
     -webkit-box-orient: vertical;
@@ -1307,7 +1332,7 @@ ul li .ulliSale {
 @media (max-width: 800px) {
   .headerProductos {
     background-image: none;
-    height: 21.3em;
+    height: 15.8em;
   }
   .headerProductos .principalHeader {
     -webkit-box-orient: vertical;
@@ -1318,7 +1343,6 @@ ul li .ulliSale {
   }
   .principalProductosh1 {
     font-size: 2.8em;
-    width: 100vw;
   }
   .productosGaleriasection {
     display: -ms-grid;
