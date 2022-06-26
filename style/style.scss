@@ -366,6 +366,54 @@ ul li{
     }
 }
 
+@media (max-width:1100px){
+
+    .fotoParrafo{
+        width: 100vw;
+    
+        .nosotrosparrafoComienzo{
+            font-size: 1.2em;
+        }
+
+        .nosotrosImagenfigure{
+            flex-direction: column;
+            
+            .nosotrosFoto{
+                height: 20em;
+                width: 31em;
+            }
+
+            .nosotrosTitulofigcaptionuno{
+                font-size: 1.2em;
+            }
+        }
+    }
+}
+
+@media (max-width:950px){
+
+    .fotoParrafo{
+        width: 100vw;
+    
+        .nosotrosparrafoComienzo{
+            font-size: 1.2em;
+        }
+
+        .nosotrosImagenfigure{
+            flex-direction: column;
+            
+            .nosotrosFoto{
+                height: 20em;
+                width: 28em;
+            }
+
+            .nosotrosTitulofigcaptionuno{
+                font-size: 1.2em;
+            }
+        }
+    }
+}
+
 @media (max-width:800px){
 
     .mainNosotros{
@@ -375,7 +423,7 @@ ul li{
 
     .headerNosotros{
         background-image: none;
-        height: 15.8em;
+        height: 15.4em;
         .principalHeader{
             flex-direction: column;
             background-color: #ece8ea;
@@ -397,6 +445,28 @@ ul li{
 
     .nosotrosHistoriah2{
         display: none;
+    }
+
+    .fotoParrafo{
+        width: 100vw;
+    
+        .nosotrosparrafoComienzo{
+            font-size: 1.2em;
+        }
+
+        .nosotrosImagenfigure{
+            flex-direction: column;
+            
+            .nosotrosFoto{
+                height: 20em;
+                width: 27em;
+                margin: 0;
+            }
+
+            .nosotrosTitulofigcaptionuno{
+                font-size: 1.2em;
+            }
+        }
     }
 
     .fotoParrafo{
@@ -428,6 +498,58 @@ ul li{
 
 }
 
+@media (max-width:630px){
+
+    .fotoParrafo{
+        width: 100vw;
+    
+        .nosotrosparrafoComienzo{
+            font-size: 1.2em;
+        }
+
+        .nosotrosImagenfigure{
+            flex-direction: column;
+            
+            .nosotrosFoto{
+                height: 16em;
+                width: 22em;
+            }
+
+            .nosotrosTitulofigcaptionuno{
+                font-size: 1.2em;
+            }
+        }
+    }
+
+    .videoParrafo{
+        display: none;
+    }
+}
+
+@media (max-width:450px){
+
+    .fotoParrafo{
+        width: 100vw;
+    
+        .nosotrosparrafoComienzo{
+            font-size: 1.2em;
+        }
+
+        .nosotrosImagenfigure{
+            flex-direction: column;
+            
+            .nosotrosFoto{
+                height: 12em;
+                width: 18em;
+            }
+
+            .nosotrosTitulofigcaptionuno{
+                font-size: 1.2em;
+            }
+        }
+    }   
+}
+
 @media (max-width:400px){
 
     .mainNosotros{
@@ -454,31 +576,6 @@ ul li{
         display: none;
     }
 
-    .fotoParrafo{
-        width: 100vw;
-    
-        .nosotrosparrafoComienzo{
-            font-size: 1.2em;
-        }
-
-        .nosotrosImagenfigure{
-            flex-direction: column;
-            
-            .nosotrosFoto{
-                height: 16em;
-                width: 22em;
-            }
-
-            .nosotrosTitulofigcaptionuno{
-                font-size: 1.2em;
-            }
-        }
-    }
-
-    .videoParrafo{
-        display: none;
-    }
-
     h3{
         font-size: 1.4em;
         color: yellow;
@@ -497,6 +594,61 @@ ul li{
     }
 }
 
+@media (max-width:330px){
+
+    .fotoParrafo{
+        width: 100vw;
+    
+        .nosotrosparrafoComienzo{
+            font-size: 1.2em;
+        }
+
+        .nosotrosImagenfigure{
+            flex-direction: column;
+            
+            .nosotrosFoto{
+                height: 12em;
+                width: 14em;
+            }
+
+            .nosotrosTitulofigcaptionuno{
+                font-size: 1.2em;
+            }
+        }
+    }
+}
+
+@media (max-width:1999px){
+    
+    .principalCatalogoh1{
+        font-size: 6em;
+    }    
+}
+
+@media (max-width:1200px){
+    
+    .principalCatalogoh1{
+        font-size: 5em;
+    }    
+    
+    .imagenesCatalogo{
+        height: 22em;
+        width: 24em;
+    }
+}
+
+@media (max-width:1000px){
+    
+    .principalCatalogoh1{
+        font-size: 4em;
+    }    
+    
+    .imagenesCatalogo{
+        height: 20em;
+        width: 22em;
+    }
+}
+
 @media (max-width:800px){
 
     .headerCatalogo{
@@ -512,11 +664,8 @@ ul li{
         font-size: 3em;
         color: #ffffff;
         background-color: brown;
-        padding: 0.1em;
-    }
-
-    .catalogoPublicidad{
-        margin: 1em;
+        padding: 0.1em 0;
+        margin-bottom: 0;
     }
     
     .catalogoPublicidadh2{
@@ -547,12 +696,8 @@ ul li{
     }
 
     .imagenesCatalogo{
-        border: 0.03;
-        height: 18em;
-        width: 20em;
-        margin-top: 1em;
-        padding: 0.2em;
-    }
+        height: 16em;
+        width: 18em;}
     
     .catalogoArth2{
         font-size: 1.4em;
@@ -566,18 +711,61 @@ ul li{
     
 }
 
-@media (max-width:400px){
-
-    .mainCatalogo{
-        background-color: #dddddd;
-    }
-
+@media (max-width:700px){
+    
     .catalogoPublicidad{
         display: none;
     }
 
     .catalogoLonuevoh2{
         display: none;
+    }
+
+    .principalCatalogoh1{
+        font-size: 2.4em;
+        color: #ffffff;
+        background-color: brown;
+        padding: 0.1em 0;
+    }
+
+    .imagenesCatalogo{
+        height: 15em;
+        width: 15em;
+    }
+
+    .catalogoFiguremain{
+        gap: 0;
+    }
+}
+
+@media (max-width:550px){
+    
+    .principalCatalogoh1{
+        font-size: 2.2em;
+    }    
+    
+    .imagenesCatalogo{
+        height: 12em;
+        width: 12em;
+    }
+}
+
+@media (max-width:450px){
+    
+    .principalCatalogoh1{
+        font-size: 1.8em;
+    }    
+    
+    .imagenesCatalogo{
+        height: 10em;
+        width: 10em;
+    }
+} 
+
+@media (max-width:400px){
+
+    .mainCatalogo{
+        background-color: #dddddd;
     }
 
     .catalogoFigurefondo{
@@ -590,24 +778,99 @@ ul li{
         align-items: stretch;
     }
 
-    .principalCatalogoh1{
-        font-size: 2.2em;
-        padding: 0.1em;
-    }
-
     .imagenesCatalogo{
-        border: 0.03;
-        height: 16em;
-        width: 22em;
-        margin-top: 0.6em;
-        padding: 0.2em;
-    }
+        height: 14em;
+        width: 14em;}
 
     .catalogoPublicidad{
         margin: 0.8em;
         background-color: #D7BDE2;
     }
 }
+
+@media (max-width:300px){
+    
+    .imagenesCatalogo{
+        height: 10em;
+        width: 10em;
+    }
+}
+
+@media (max-width:1200px){
+
+    .principalProductosh1{
+        font-size: 4em;
+    }
+    
+    .productosGaleriasection{
+        background-color: #ece8ea;
+    
+        .productosFotos{
+            color: #ffffff;
+    
+            .productosGaleriafotos{
+                height: 17em;
+                width: 17em;
+            }
+        }
+    }    
+}
+    
+@media (max-width:1000px){
+
+    .principalProductosh1{
+        font-size: 3.5em;
+    }
+    
+    .productosGaleriasection{
+        background-color: #ece8ea;
+    
+        .productosFotos{
+            color: #ffffff;
+    
+            .productosGaleriafotos{
+                height: 16.4em;
+                width: 16.4em;
+            }
+        }
+    }    
+}
+
+@media (max-width:920px){
+
+    .principalProductosh1{
+        font-size: 3.4em;
+    }
+    
+    .productosGaleriasection{
+        background-color: #ece8ea;
+    
+        .productosFotos{
+            color: #ffffff;
+    
+            .productosGaleriafotos{
+                height: 16.3em;
+                width: 16.3em;
+            }
+        }
+    }    
+}
+
+/*@media (max-width:880px){
+
+    .productosGaleriasection{
+        background-color: #ece8ea;
+    
+        .productosFotos{
+            color: #ffffff;
+    
+            .productosGaleriafotos{
+                height: 15.8em;
+                width: 15.8em;
+            }
+        }
+    }    
+}*/
 
 @media (max-width:800px){
 
@@ -669,13 +932,21 @@ ul li{
 @media (max-width:800px){
 
     .principalheaderContactosale{
-        font-size: 1.8em;
+        font-size: 1.4em;
         display: flex;
         flex-direction: column;
         align-items: center;
         padding-top: 0;
-        height: 8.8em;
+        height: 7.8em;
     }
+
+    #headercontactoSalelogo{
+        height: 3em;
+        width: 2.4em;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+    }
+
 
     .contactoSaleh1{
         font-size: 3.4em;
@@ -689,12 +960,6 @@ ul li{
     .mainContactosale{
         flex-direction: column;
         background-color: #ece8ea;
-    }
-
-    #headercontactoSalelogo{
-        height: 4.3em;
-        width: 4.3em;
-        margin-left: 2em;
     }
 
     .contactoFormulario{

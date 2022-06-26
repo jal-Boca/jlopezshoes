@@ -22,16 +22,15 @@
 .principalCatalogoh1{
     font-size: 3.5em;
     color: #7D3C98;
-    padding: 0.2em 0 0.4em 0;
+    padding: 0.4em 0;
 }
 
 .catalogoPublicidad{
     display: flex;
     flex-direction: column;
+    justify-items: center;
     align-items: center;
     background-color: #D7BDE2;
-    margin-left: 16em;
-    margin-right: 16em;
 }
 
 .catalogoPublicidadh2{

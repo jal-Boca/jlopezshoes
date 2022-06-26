@@ -27,8 +27,8 @@
     color: #ffffff;
     font-family: 'Libre Bodoni', serif;
     font-size: 3.5em;
-    /*padding: 0.2em 0;*/
     width: 100vw;
+    margin-bottom: 0;
 }
 
 .productosGaleriasection{
@@ -40,7 +40,7 @@
     .productosFotos{
         background-color: brown;
         font-family: 'Libre Bodoni', serif;
-        font-size: 1.2em;
+        font-size: 1em;
         color: #ffffff;
         margin-top: 2em;
         margin-bottom: 2em;
@@ -55,16 +55,16 @@
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
-            background-color: #ece8ea;
-            color: brown;
+            background-color: #dddddd;
+            color: black;
             font-family: 'Libre Bodoni', serif;
-            font-size: 0.8em;
+            font-size: 1em;
             padding: 0.2em;
 
             .productosColortalleseleccion{
                 display: flex;
                 flex-direction: column;
-                justify-content: end;    
+                justify-content: end;   
             }
         }
     }

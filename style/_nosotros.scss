@@ -34,6 +34,8 @@
 
 .row{
     width: 100vw;
+    text-align: center;
+    margin: auto;
 }
 
 .col{
@@ -96,6 +98,7 @@
         }
 
         .nosotrosParrafopie{
+            text-align: center;
             font-family: 'Libre Bodoni', serif;
             font-size: 1.2em;
             color: #d22333;
@@ -113,6 +116,7 @@
 .nosotrosFoto{
     height: 20em;
     width: 35em;
+    margin-right: 2em;
 }
 
 .nosotrosVideo{
@@ -126,6 +130,7 @@
 }
 
 .nosotrosTitulofigcaptionuno{
+    text-align: center;
     font-family: 'Libre Bodoni', serif;
     font-size: 1.1em;
     color: #d22333;
